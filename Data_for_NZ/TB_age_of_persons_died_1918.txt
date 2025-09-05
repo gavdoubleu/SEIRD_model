@@ -1,0 +1,20 @@
+#AGES OF PERSONS WHO DIED FROM TUBERCULAR DISEASES , 1918.
+#Ages.	Males.	Females.	Total.
+Under 5 years	29	21	50
+5 years and under 10	9	3	12
+10 years and under 15	5	8	13
+15 years and under 20	32	42	74
+20 years and under 25	49	62	111
+25 years and under 30	53	62	115
+30 years and under 35	64	47	111
+35 years and under 40	51	51	102
+40 years and under 45	44	30	74
+45 years and under 50	45	15	60
+50 years and under 55	15	17	32
+55 years and under 60	20	14	34
+60 years and under 65	14	7	21
+65 years and under 70	6	3	9
+70 years and under 75	7	2	9
+75 years and under 80	1	2	3
+80 and upwards	2	..	2
+Total deaths	446	386	832

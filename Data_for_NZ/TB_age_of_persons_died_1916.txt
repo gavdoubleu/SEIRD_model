@@ -1,0 +1,20 @@
+#AGES OF PERSONS WHO DIED FROM TUBERCULAR DISEASES, 1915.
+#Ages.	Males.	Females.	Total.
+Under 5 years	23	24	47
+  5 years and under 10	9	10	19
+10 years and under 15	5	11	16
+15 years and under 20	14	35	49
+20 years and under 25	43	47	90
+25 years and under 30	45	49	94
+30 years and under 35	43	59	102
+35 years and under 40	54	37	91
+40 years and under 45	37	20	57
+45 years and under 50	32	13	45
+50 years and under 55	10	8	18
+55 years and under 60	15	6	21
+60 years and under 65	9	2	11
+65 years and under 70	5	8	13
+70 years and under 75	8	5	13
+75 years and under 80	5	..	5
+80 and upwards	2	..	2
+        Total deaths	359	334	693
