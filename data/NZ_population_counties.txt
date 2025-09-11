@@ -1,0 +1,126 @@
+# County    Population
+Akaroa	1,982
+Akitio	1,416
+Amuri	1,836
+Ashburton	13,136
+Ashley	728
+Awakino	702
+Awatere	1,542
+Bay of Islands	3,600
+Bruce	4,763
+Buller	5,773
+Castlepoint	621
+Chatham Islands	219
+Cheviot	1,224
+Clifton	2,156
+Clutha	6,901
+Collingwood	1,253
+Cook	8,145
+Coromandel	2,256
+Dannevirke	4,538
+East Taupo	515
+Eden	18,204
+Egmont	3,264
+Eketahuna	2,312
+Ellesmere	3,441
+Eltham	3,393
+Eyre	1,806
+Featherston	5,119
+Fiord	17
+Franklin	9,397
+Geraldine	5,194
+Great Barrier	245
+Grey	5,510
+Halswell	1,628
+Hawera	4,599
+Hawke's Bay	11,467
+Heathcote	4,212
+Hobson	4,217
+Hokianga	3,596
+Horowhenua	6,926
+Hutt	6,397
+Inangahua	4,130
+Kaikoura	1,906
+Kairanga	4,124
+Kaitieke	3,597
+Kawhia	991
+Kiwitea	2,585
+Kowai	1,914
+Lake	1,749
+Levels	5,100
+Mackenzie	2,868
+Makara	3,862
+Malvern	2,757
+Manawatu	4,521
+Maniototo	2,527
+Manukau	6,799
+Marlborough	6,915
+Masterton	3,746
+Matamata	3,903
+Mauriceville	771
+Mongonui	3,562
+Mount Herbert	405
+Murchison	1,251
+Ohinemuri	4,661
+Ohura	2,382
+Opotiki	1,881
+Oroua	3,304
+Otamatea	3,647
+Oxford	1,756
+Pahiatua	3,110
+Paparua	4,716
+Patangata	2,080
+Patea	3,759
+Peninsula	1,793
+Piako	5,013
+Pohangina	1,581
+Raglan	4,027
+Rangiora	2,747
+Rangitikei	8,953
+Rodney	4,043
+Rotorua	1,400
+Selwyn	1,423
+Sounds	1,201
+Southland	25,661
+Springs	1,785
+Stewart Island	349
+Stratford	5,152
+Taieri	5,662
+Takaka	1,858
+Taranaki	7,100
+Tauranga	3,947
+Tawera	847
+Thames	4,690
+Tuapeka	5,123
+Vincent	3,930
+Waiapu	2,075
+Waihemo	1,446
+Waikato	8,099
+Waikohu	3,013
+Waikouaiti	4,094
+Waimairi	11,914
+Waimarino	3,502
+Waimate	6,984
+Waimate West	2,635
+Waimea	9,334
+Waipa	6,864
+Waipara	2,058
+Waipawa	3,084
+Waipukurau	667
+Wairarapa South	2,744
+Wairewa	1,036
+Wairoa	2,332
+Waitaki	9,694
+Waitemata	9,354
+Waitomo	5,181
+Waitotara	5,842
+Wallace	9,432
+Wanganui	3,397
+Weber	420
+Westland	4,087
+West Taupo	2,351
+Whakatane	2,954
+Whangamomona	1,387
+Whangarei	8,870
+Whangaroa	776
+Woodville	1,819

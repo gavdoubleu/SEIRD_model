@@ -1,0 +1,117 @@
+# Borough Population
+Akaroa	540
+Alexandra	679
+Arrowtown	307
+Ashburton	2,808
+Auckland (City)	64,951
+Balclutha	1,409
+Birkenhead	2,116
+Blenheim	3,822
+Brunner	598
+Cambridge	1,507
+Campbelltown	1,823
+Carterton	1,614
+Christchurch (City)	54,925
+Cromwell	549
+Dannevirke	3,336
+Dargaville	1,776
+Devonport	7,613
+Dunedin (City)	55,256
+Eastbourne	952
+Eketahuna	754
+Eltham	1,711
+Feilding	3,438
+Foxton	1,772
+Frankton	1,861
+Geraldine	869
+Gisborne	9,174
+Gore	3,551
+Green Island	1,841
+Greymouth	4,863
+Greytown	1,186
+Hamilton	5,677
+Hampden	364
+Hastings	7,918
+Hawera	3,375
+Hokitika	2,091
+Inglewood	1,199
+Invercargill	14,154
+Invercargill South	1,712
+Kaiapoi	1,560
+Kaitangata	1,681
+Karori	1,647
+Kumara	623
+Lawrence	837
+Levin	1,630
+Lower Hutt	4,893
+Lyttelton	3,766
+Marton	1,650
+Masterton	5,894
+Mataura	1,129
+Milton	1,317
+Miramar	2,158
+Mosgiel	1,719
+Motueka	1,475
+Mount Albert	9,654
+Mount Eden	12,555
+Napier	12,704
+Naseby	276
+Nelson (City)	8,774
+New Brighton	2,310
+Newmarket	2,863
+New Plymouth	8,704
+North cote	1,651
+Oamaru	5,140
+Ohakune	1,371
+Onehunga	5,913
+Onslow	2,191
+Opotiki	1,073
+Otahuhu	2,328
+Paeroa	1,376
+Pahiatua	1,300
+Palmerston	752
+Palmerston North	12,829
+Patea	1,010
+Petone	7,115
+Picton	1,121
+Port Chalmers	2,615
+Pukekohe	1,533
+Queenstown	657
+Rangiora	1,808
+Riccarton	2,890
+Richmond	872
+Riverton	837
+Ross	491
+Rotorua*	2,845
+Roxburgh	449
+Runanga	1,411
+Spreydon	4,289
+St. Kilda	5,520
+Stratford	2,713
+Sumner	2,287
+Taihape	1,927
+Takapuna	2,756
+Tapanui	322
+Taumarunui	1,875
+Tauranga	1,685
+Te Aroha	1,452
+Te Awamutu	1,064
+Te Kuiti	1,982
+Temuka	1,633
+Thames	3,273
+Timaru	12,238
+Waihi	4,774
+Waikouaiti	611
+Waimate	1,867
+Waipawa	1,100
+Waipukurau	1,167
+Wairoa	1,530
+Waitara	1,422
+Wanganui	14,380
+Wellington (City)	73,305
+West Harbour	1,631
+Westport	4,067
+Whangarei	3,294
+Winton	586
+Woodville	1,078
+Woolston	3,990

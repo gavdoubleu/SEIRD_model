@@ -1,0 +1,18 @@
+Class.	Number of Deaths.	Proportion to Total Deaths.	Proportion per 10,000 living.
+1915.	1916.	1915.	1916.	1915.	1916.
+ 	 	Per Cent.	Per Cent.	 	 	 
+I. General diseases	2,566	2,733	25.75	25.79	23.34	24.86
+II. Diseases of the nervous system and of the organs of special sense	984	1,235	9.87	11.65	8.95	11.23
+III. Diseases of the circulatory system	1,464	1,608	14.69	15.18	13.32	14.62
+IV Diseases of the respiratory system	963	887	9.66	8.37	8.76	8.07
+V. Diseases of the digestive system	766	838	7.69	7.91	6.97	7.62
+VI. Diseases of the genito-urinary system and annexa	472	481	4.74	4.54	4.29	4.37
+VII. Puerperal condition	131	167	1.31	1.58	1.19	1.52
+VIII. Diseases of the skin and of the cellular tissue	66	50	0.66	0.47	0.60	0.45
+IX. Diseases of the organs of locomotion	23	34	0.23	0.32	0.21	0.31
+X. Malformations	153	127	1.54	1.20	1.39	1.16
+XI. Infancy	700	698	7.02	6.59	6.37	6.35
+XII. Old-age	793	883	7.96	8.33	7.21	8.03
+XIII. Violence	736	742	7.39	7.00	6.69	6.75
+XIV. Ill-defined causes	148	113	1.49	1.07	1.35	1.03
+Totals	9,965	10,596	100.00	100.00	90.64	96.37

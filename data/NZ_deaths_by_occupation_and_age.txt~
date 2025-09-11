@@ -1,0 +1,17 @@
+#Occupation.	Age, in Years.	Total.
+#Under 20.	20 and under 25.	25 and under 45.	45 and under 65.	65 and over.
+Professional	6	26	64	69	117	282
+Domestic	..	1	38	54	44	137
+Mercantile	15	15	107	148	165	450
+Engaged in transport and communication	8	16	115	82	97	318
+Engaged in manufacturing	6	26	111	139	178	460
+Engaged in building and construction	5	12	54	79	123	273
+Other industrial workers	14	29	178	279	345	845
+Agricultural and pastoral	14	27	148	267	703	1,159
+Working in mines and quarries	2	1	38	57	178	276
+Other primary producers	..	3	5	9	5	22
+Independent means, &c.	..	..	1	16	86	103
+Dependent relatives	1,282	..	..	..	..	1,282
+Dependent on public or private support	..	2	4	..	60	66
+Unknown	..	9	9	16	59	93
+Total	1,352	167	872	1,215	2,160	5,766

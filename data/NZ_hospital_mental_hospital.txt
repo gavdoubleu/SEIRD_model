@@ -1,0 +1,11 @@
+Mental Hospital.	Males.	Females.	Total.
+Auckland	626	378	1,004
+Tokanui	100	49	149
+Porirua	574	395	969
+Nelson	82	108	190
+Hokitika	196	64	260
+Christchurch	320	354	674
+Dunedin (Seacliff and Waitati)	567	415	982
+Ashburn Hall (private mental hospital)	21	24	45
+Absent on probation	69	33	102
+Totals	2,555	1,820	4,375

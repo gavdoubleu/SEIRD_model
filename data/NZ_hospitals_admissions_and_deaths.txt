@@ -1,0 +1,76 @@
+#PUBLIC HOSPITALS.—ADMISSIONS, DISCHARGES, ETC., 1916.
+#Hospital.	Patients remaining on 1st January, 1916.	Admissions during 1916	Discharges during 1916.	Deaths in Hospital during 1916.	Patients remaining on 31st December, 1916.
+#Recovered.	Relieved.	Unrelieved.
+Mangonui	11	106	92	5	1	6	13
+Bay of Islands	4	139	103	23	2	7	8
+Hokianga	18	259	235	8	3	16	15
+Northern Wairoa	11	257	181	56	8	20	3
+Whangarei	33	511	373	88	4	47	32
+Auckland	319	5,218	3,412	1,245	95	411	374
+Waikato	106	1,461	1,102	212	26	108	119
+Cambridge Sanatorium	53	156	61	66	6	12	64
+Taumarunui	7	243	200	15	2	11	22
+Waihi	30	411	274	115	4	23	25
+Thames	34	864	593	213	7	48	37
+Coromandel	6	68	40	24	 	6	4
+Mercury Bay	1	34	27	7	 	1	 
+Waiapu	4	47	32	5	 	6	8
+Cook	74	1,000	722	188	13	77	74
+Wairoa	8	156	104	34	1	15	10
+Napier	150	1,346	979	195	44	122	156
+Waipawa	24	362	282	57	11	18	18
+Dannevirke	22	302	235	28	9	24	28
+Taranaki	46	1,022	835	96	11	58	68
+Stratford	8	242	158	67	1	12	12
+Hawera	22	390	284	68	5	24	31
+Patea	9	169	140	17	1	5	15
+Wanganui	76	1,212	828	240	37	83	100
+Taihape	6	190	140	34	 	10	12
+Palmerston North	70	1,099	871	133	48	67	50
+Pahiatua	7	168	104	44	1	14	12
+Masterton	24	510	272	188	15	32	27
+South Wairarapa	35	574	515	61	12	12	9
+Wellington	330	4,658	2,583	1,630	96	327	352
+Otaki	3	159	115	20	7	13	7
+Otaki Sanatorium	18	72	41	20	11	 	18
+Wairau	27	554	480	24	11	38	28
+Havelock	 	50	34	9	2	2	3
+Picton	8	186	161	18	1	10	2
+Nelson	58	643	411	127	37	55	71
+Buller	21	283	214	25	1	31	33
+Reefton	32	172	115	39	2	19	29
+Waiuta Nurses' Home	 	44	39	 	1	3	1
+Denniston	1	44	36	6	 	 	3
+Grey River	65	426	230	87	48	53	73
+Westland	33	245	165	38	3	31	41
+Otira	 	17	12	4	1	 	 
+Kumara	32	43	24	11	1	8	31
+Totara	10	15	5	2	1	1	16
+Kaikoura	1	38	21	13	3	1	1
+Christchurch	209	3,517	1,891	1,046	294	260	235
+Lyttelton Casualty Ward	 	20	11	9	 	 	 
+Bottle Lake Fever Hospital	25	795	747	3	20	16	34
+Cashmere Hills Sanatorium	59	83	50	21	4	3	64
+Coronation Hospital for Consumptives	38	52	1	18	13	15	43
+Akaroa	1	11	5	4	2	1	 
+Ashburton	23	350	264	54	10	24	21
+Timaru	64	654	357	243	10	48	60
+Timaru Infectious Diseases	11	22	33	 	 	 	 
+Waimate	14	255	204	30	4	12	19
+Oamaru	15	269	208	29	9	17	21
+Palmerston Sanatorium	44	119	40	52	23	3	45
+Port Chalmers	3	27	18	10	1	1	 
+Logan Pt. Fever Hospital	6	53	52	2	1	 	4
+Dunedin	228	3,361	1,051	1,773	242	300	223
+Tuapeka	5	69	44	17	5	4	4
+Kaitangata	1	34	33	2	 	 	 
+Tapanui	1	58	30	20	6	 	3
+Maniototo	7	81	58	11	2	10	7
+Dunstan	5	61	37	9	3	13	4
+Cromwell	8	87	54	27	7	5	2
+Wakatipu	4	58	19	22	4	6	11
+Gore	19	199	150	28	7	17	16
+Southland	74	1,069	722	217	47	76	81
+Kew Infectious Diseases	3	93	76	 	 	2	18
+Wallace and Fiord	17	272	209	37	6	19	18
+Totals	2,739	37,834	24,244	9,289	1,313	2,739	2,988

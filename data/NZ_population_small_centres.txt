@@ -1,0 +1,1304 @@
+# Centre.	County in which situated.	Population
+Abbotsford	Taieri	145
+Adamsville	Masterton	195
+Addington	Waimairi	284
+Addison's	Buller	104
+Ahaura	Grey	167
+Akaaka	Franklin	202
+Akatarawa	Hutt	136
+Akitio	Akitio	133
+Albany	Waitemata	240
+Albury	Mackenzie	282
+Alford Forest	Ashburton	262
+Alfredton	Eketahuna	240
+Alfriston	Manukau	192
+Allandale	Mackenzie	103
+Allanton	Taieri	216
+Allenton	Ashburton	1,113
+Alma	Waitaki	180
+Alton	Patea	331
+Anama	Ashburton	121
+Annan	Amuri	141
+Annat	Malvern	178
+Aokautere	Kairanga	200
+Aongatete	Tauranga	104
+Aorangi	Oroua	122
+Aoroa	Hobson	282
+Aparima	Wallace	231
+Apiti	Pohangina	449
+Appleby	Waimea	275
+Arahura	Westland	119
+Aramoho	Waitotara	146
+Aranga	Hokianga	136
+Arapohue	Hobson	182
+Ararata	Hawera	155
+Ararimu	Franklin	120
+Aratapu	Hobson	384
+Aratoro	Waitomo	109
+Ardgowan	Waitaki	367
+Ardmore	Manukau	199
+Argyll	Waipawa	228
+Aria	Waitomo	225
+Arthur's Pass	Tawera	222
+Arundel	Geraldine	103
+Ashhurst	Oroua	498
+Ashley	Ashley	304
+Ashley- Clinton	Waipawa	135
+Atawhai	Waimea	123
+Athol	Southland	182
+Auckland Hospital	Edon	594
+Auroa	Waimate West	371
+Avondale	Edon	2,670
+Avonside	Heathcote	585
+Awahuri	Manawatu	401
+Awakeri	Whakatane	105
+Awamangu	Bruce	117
+Awamoa	Waitaki	176
+Awamoko	Waitaki	176
+Awanui	Mongonui	187
+Awatoto	Hawke's Bay	261
+Awatuna	Egmont	228
+Awhitu	Franklin	153
+Aylesbury	Malvern	106
+Bainham	Collingwood	165
+Balcairn	Kowai	202
+Balclutha North	Bruce	208
+Balfour	Southland	449
+Ballance	Pahiatua	211
+Bannookburn	Vincent	146
+Barry's Bay	Akaroa	105
+Bayswater	Wallace	102
+Beaconsfield	Kiwitea	253
+Beaumont	Tuapeka	245
+Belfast	Waimairi	1,057
+Belfield	Geraldine	100
+Belgrove	Waimea	184
+Bell Block	Taranaki	263
+Belmont	Hutt	201
+Belvedere	Wairarapa South	235
+Benhar	Bruce	172
+Bennett's	Oxford	197
+Berwick	Taieri	192
+Bexley	Heathcote	415
+Bideford	Masterton	140
+Birchfield	Buller	132
+Birchwood	Wallace	217
+Blackball	Grey	863
+Black's Point	Inangahua	239
+Blackwater	Inangahua	108
+Blue Cliffs	Waimate	132
+Blue Spur	Tuapeka	100
+Bombay	Franklin	394
+Bonny Glen	Rangitikei	149
+Braigh	Whangarei	105
+Brighton	Taieri	245
+Brightwater	Waimea	499
+Broadwood	Hokianga	164
+Bromley	Heathcote	823
+Brookside	Ellesmere	220
+Brown's	Southland	264
+Brunswick	Waitotara	198
+Bruntwood	Waikato	155
+Brydone	Southland	203
+Buckland	Franklin	444
+Bunnythorpe	Kairanga	614
+Burke's Pass	Mackenzie	109
+Burnett'8 Face	Buller	526
+Burnham	Paparua	331
+Burwood	Waimairi	665
+Cabbage Bay	Coromandel	160
+Calico Lino	Rangitikei	176
+Cambrian	Maniototo	110
+Cameron's	Grey	120
+Cannington	Waimate	125
+Canvastown	Marlborough	262
+Cape Foulwind	Buller	187
+Cape Runaway	Waiapu	101
+Capleston	Inangahua	121
+Cardiff	Stratford	316
+Cardrona	Lake	111
+Carew	Ashburton	154
+Carrington	Wairarapa South	130
+Cashmere	Heathcote	970
+Cave	Levels	187
+Chamberlain	Mackenzie	132
+Charlton	Southland	317
+Chatton	Southland	116
+Cheltenham	Oroua	119
+Chertsey	Ashburton	365
+Cheviot	Cheviot	192
+Chiselhurst	Eltham	100
+Christchurch Hospital	Waimairi	354
+Churchill	Raglan	102
+Clandeboye	Geraldine	304
+Clarendon	Bruce	122
+Clareville	Wairarapa South	339
+Clarks ville	Bruce	130
+Clarkville	Eyre	204
+Claudelands	Waikato	277
+Clevedon	Manukau	539
+Clifden	Wallace	163
+Clifton	Takaka	105
+Clive	Hawke's Bay	572
+Clyde	Vincent	370
+Clydevale	Clutha	238
+Coal Creek	Tuapeka	179
+Coalgate	Malvern	197
+Cobden	Grey	1,016
+Colac Bay	Wallace	178
+Collingwood	Collingwood	213
+Collingwood	Southland	296
+Colyton	Pohangina	109
+Conical Hill	Clutha	105
+Coromandel	Coromandel	677
+Crofton	Rangitikei	156
+Cronadun	Inangahua	154
+Crookston	Tuapeka	202
+Cross Creek	Featherston	110
+Croydon Bush	Southland	186
+Crushington	Inangahua	122
+Culverden	Amuri	246
+Cust	Rangiora	387
+Dairy Flat	Waitemata	106
+Dalefield	Wairarapa South	225
+Dallington	Waimairi	270
+Darfield	Malvern	316
+Day's Bay	Hutt	308
+Deep Creek	Marlborough	397
+Denniston	Grey	702
+Dillmanstown	Westland	143
+Dipton	Southland	486
+Domett	Cheviot	166
+Dorie	Ashburton	134
+Douglas	Stratford	181
+Douglas	Waimate	119
+Dovedale	Waimea	115
+Doyleston	Ellesmere	403
+Driving Creek	Coromandel	169
+Drummond	Wallace	443
+Drury	Franklin	391
+Dunback	Waihemo	345
+Dunsandel	Ellesmere	443
+Duntroon	Waitaki	353
+Durham Road	Taranaki	244
+Duvauchelle's Bay	Akaroa	183
+Dyerville	Featherston	148
+Ealing	Ashburton	129
+Earnscleugh	Vincent	306
+East Tamaki	Manukau	340
+Egmont Village	Taranaki	211
+Eiffelton	Ashburton	186
+Elgin	Ashburton	118
+Ellesmere	Springs	179
+Elsthorpe	Patangata	157
+Elston	Ohinemuri	105
+Enfield	Waitaki	289
+Epsom	Eden	3,168
+Epuni Hamlet	Hutt	227
+Eskdale	Hawke's Bay	132
+Esk Valley	Waimate	105
+Ettrick	Tuapeka	153
+Eureka	Waikato	248
+Evans Bay	Tuapeka	158
+Eveline	Waitaki	295
+Eyreton	Eyre	140
+Fairfax	Wallace	154
+Fairfield	Horowhenua	162
+Fairfield	Ashburton	210
+Fairfield	Taieri	261
+Fairhall Valley	Marlborough	112
+Fairlie	Mackenzie	640
+Fair view	Levels	151
+Farndon	Hawke's Bay	136
+Farnham	Marlborough	145
+Favona	Manukau	143
+Fencourt	Waikato	303
+Fendalton	Waimairi	1,796
+Fernside	Rangiora	315
+Five Rivers	Southland	125
+Flat Creek	Marlborough	143
+Fordell	Wanganui	315
+Fortification	Southland	132
+Fortrose	Southland	190
+Foxhill	Waimea	164
+Frankton	Waipa	172
+Frasertown	Wairoa	318
+Gabriel's Gully	Tuapeka	104
+Galloway	Vincent	121
+Gap	Southland	101
+Gapes Valley	Geraldine	144
+Garston	Lake	133
+Gate Pa	Tauranga	111
+Gebbie's Valley	Wairewa	122
+Georgetown	Waitaki	193
+Gimmerburn	Maniototo	134
+Gladstone	Wairarapa South	194
+Glenavy	Waimate	206
+Glenbrook	Franklin	131
+Glenfield	Waitemata	501
+Glenham	Southland	238
+Gleniti	Levels	361
+Glenkenich	Clutha	216
+Glen Massey	Raglan	346
+Glen Murray	Raglan	117
+Glenomaru	Clutha	149
+Glenorchy	Lake	150
+Glen Oroua	Manawatu	200
+Glenroy	Selwyn	170
+Glentui	Oxford	113
+Glentunnel	Malvern	261
+Globe Hill	Inangahua	197
+Goodwood	Waihemo	260
+Gordon	Piako	108
+Gordonton	Waikato	321
+Gorge Road	Southland	206
+Granity	Buller	667
+Grassmere	Awatere	118
+Grassmere	Southland	161
+Greatford	Rangitikei	191
+Green Bay	Eden	110
+Greendale	Malvern	267
+Greenhills	Southland	165
+Green Lane	Eden	648
+Greenmeadows	Hawke's Bay	646
+Greenpark	Springs	308
+Greenstreet	Ashburton	141
+Green vale	Southland	211
+Greenwood's Corner	Eden	151
+Greerton	Tauranga	102
+Grove Bush	Southland	146
+Grovetown	Marlborough	376
+Gummie's Bush	Wallace	159
+Hairini	Waipa	141
+Hakataramea	Waimate	203
+Hakataramea Valley	Waimate	123
+Half-moon Bay	Stewart Island	209
+Halkett	Malvern	146
+Halswell	Halswell	1,096
+Hamua	Eketahuna	192
+Hangatiki	Waitomo	161
+Hanmer	Amuri	167
+Hapuka	Kaikoura	103
+Harewood	Waimairi	402
+Harihari	Westland	103
+Harrisville	Franklin	174
+Hastwell	Mauriceville	119
+Hatuma	Waipukurau	336
+Haumoana	Hawke's Bay	208
+Hautapu	Waikato	145
+Hautere	Horowhenua	152
+Hawarden	Waipara	259
+Hawea Flat	Vincent	216
+Hawtrey	Makara	100
+Heathcote Valley	Heathcote	618
+Hector	Buller	190
+Heddon Bush	Wallace	239
+Hedgehope	Southland	227
+Hekeia	Wallace	111
+Helensbrook	Bruce	146
+Henderson	Waitemata	874
+Henley	Taieri	110
+Herbert	Waitaki	461
+Herbertville	Patangata	105
+Herekino	Hokianga	283
+Heropuru	Whakatane	103
+Heriot	Tuapeka	331
+Herriesville	Piako	239
+Hexton	Cook	115
+Highbank	Ashburton	313
+Highcliff	Peninsula	178
+Hihitahi	Wanganui	279
+Hikimutu	Kaitieke	100
+Hikuai	Thames	107
+Hikutaia	Ohinemuri	374
+Hilderthorpe	Waitaki	105
+Hillend	Bruce	151
+Hillmorton	Waimairi	358
+Hillsborough	Eden	264
+Hillsborough	Taranaki	144
+Hillsborough	Heathcote	265
+Hillside	Waikato	149
+Hilton	Geraldine	186
+Himatangi	Manawatu	122
+Hinakura	Featherston	117
+Hinds	Ashburton	379
+Hinuera	Matamata	206
+Hoanga	Hobson	153
+Hobsonville	Waitemata	207
+Hokonui	Southland	175
+Honikiwi	Waitomo	104
+Hook	Waimate	342
+Hope	Waimea	387
+Horehore	Hobson	105
+Hornby	Paparua	568
+Horokiwi Valley	Hutt	112
+Horopito	Waimarino	380
+Hororata	Selwyn	432
+Horotiu	Waipa	313
+Horrelville	Eyre	120
+Horsham Downs	Waikato	143
+Hoteo	Rodney	136
+Houipapa	Clutha	159
+Howick	Manukau	483
+Huatoki	Taranaki	178
+Huinga	Stratford	124
+Huirangi	Taranaki	222
+Huiroa	Stratford	203
+Hukanui	Eketahuna	261
+Hukarere	Inangahua	115
+Hukatere	Otamatea	120
+Hukerenui	Whangarei	309
+Humphrey's Gully	Westland	105
+Hunter	Waimate	255
+Hunua	Franklin	206
+Hurimoana	Whangamomona	113
+Hurleyville	Patea	192
+Hyde	Maniototo	156
+Ida Valley	Maniototo	131
+Ihaia	Egmont	111
+Ihakara	Horowhenua	138
+Ihumata	Manukau	105
+Ihuraua	Mauriceville	134
+Ikamatua	Inangahua	109
+Inaha	Hawera	293
+Inangahua Junction	Inangahua	120
+Incholme	Waitaki	103
+Irwell	Ellesmere	259
+Isla Bush	Wallace	139
+Islington	Paparua	266
+Janefield	Taieri	112
+Judgeford	Hutt	101
+Kaeo	Whangaroa	180
+Kahuika	Clutha	102
+Kahukura	Waiapu	139
+Kaihu	Hobson	238
+Kai Iwi	Waitotara	258
+Kaikohe	Bay of Islands	356
+Kaikoura	Kaikoura	410
+Kaimata	Taranaki	360
+Kainui	Awatere	103
+Kaipaki	Waipa	177
+Kaipara Flats	Rodney	123
+Kairanga	Kairanga	406
+Kaitaia	Mongonui	519
+Kaitawa	Pahiatua	161
+Kaiti	Cook	723
+Kaituna	Marlborough	103
+Kaituna Valley	Wairewa	140
+Kaiwaka	Otamatea	148
+Kakahi	Kaitieke	510
+Kakahu	Geraldine	156
+Kakanui	Waitaki	233
+Kakaramea	Patea	262
+Kanieri	Westland	219
+Kapuka	Southland	134
+Kapuni	Waimate West	460
+Karaka	Franklin	253
+Karamea	Buller	240
+Karamu	Raglan	173
+Karangahake	Ohinemuri	790
+Kariotahi	Franklin	108
+Karopiro	Matamata	132
+Katea	Clutha	101
+Katikati	Tauranga	261
+Kauaeranga Valley	Thames	137
+Kaukapakapa	Waitemata	399
+Kaupokonui	Waimate West	461
+Kaurihohore	Whangarei	120
+Kauroo Hill	Waitaki	129
+Kauwhata	Kairanga	148
+Kawhatau	Kiwitea	137
+Kelso	Tuapeka	165
+Kennington	Southland	378
+Kerikeri	Bay of Islands	102
+Kerrytown	Levels	118
+Kia Ora	Waitaki	128
+Killinchy	Ellesmere	220
+Kimbell	Mackenzie	128
+Kimberley	Malvern	143
+Kimihia	Waikato	375
+Kingsdown	Levels	189
+Kiokio	Waitomo	199
+Kirikopuni	Hobson	107
+Kiripaka	Whangarei	207
+Kiritaki	Woodville	188
+Kirwee	Malvern	289
+Kiwitahi	Piako	139
+Knapdale	Southland	157
+Kohekohe	Franklin	113
+Kohi	Patea	137
+Kohimarama	Eden	225
+Kohinui	Pahiatua	179
+Kohuratahi	Whangamomona	255
+Koiterangi	Westland	175
+Kokatahi	Westland	184
+Komakorau	Waikato	135
+Komata	Ohinemuri	158
+Konini	Pahiatua	261
+Kopu	Thames	125
+Kopuaranga	Masterton	121
+Koputaroa	Horowhenua	199
+Korakonui	West Taupo	106
+Korere	Waimea	132
+Korito	Taranaki	157
+Koromatua	Waipa	149
+Kotuku	Grey	101
+Koutu	Hokianga	100
+Kuaotunu	Coromandel	122
+Kumeroa	Woodville	125
+Kumeu	Waitemata	128
+Kurow	Waitaki	340
+Kururau	Ohura	111
+Kyeburn	Maniototo	151
+Ladbrook's	Paparua	253
+Lakeside	Ellesmere	271
+Lansdowne	Masterton	734
+Lauder	Vincent	176
+Lauriston	Ashburton	162
+Leeston	Ellesmere	762
+Leigh	Rodney	119
+Leithfield	Kowai	170
+Lepperton	Taranaki	291
+Levels	Levels	252
+Limehills	Southland	382
+Limestone Island	Whangarei	138
+Lincoln	Springs	520
+Lindsay	Waipawa	229
+Linton	Kairanga	460
+Lismore	Ashburton	145
+Little Akaloa	Akaroa	140
+Little River	Wairewa	161
+Livingstone	Waitaki	186
+Loburn	Ashley	185
+Lochiel	Southland	326
+Longbeach	Ashburton	113
+Longburn	Kairanga	602
+Longbush	Southland	251
+Longridge	Southland	205
+Lome	Southland	175
+Lovell's Flat	Bruce	227
+Lowburn Ferry	Vincent	236
+Lowcliffe	Ashburton	158
+Lowgarth	Stratford	216
+Lyndhurst	Ashburton	178
+Lyndon	Amuri	173
+Mabel Bush	Southland	203
+Macandrew Bay	Peninsula	103
+Mackaytown	Ohinemuri	209
+Mackenzie	Cheviot	175
+McNab	Southland	112
+Macrae's	Waihemo	125
+Maerewhenua	Waitaki	106
+Mahakipawa	Marlborough	119
+Maheno	Waitaki	424
+Mahoe	Stratford	198
+Mahoenui	Awakino	112
+Mahurangi	Rodney	108
+Maitland	Southland	145
+Makara	Makara	170
+Makaraka	Cook	280
+Makaretu	Waipawa	268
+Makarewa	Southland	591
+Makauri	Cook	184
+Makikihi	Waimate	346
+Makino	Oroua	163
+Makirikiri	Wanganui	294
+Mangamaire	Pahiatua	138
+Makotuku	Dannevirke	230
+Makuri	Pahiatua	187
+Mamaku	Rotorua	486
+Manakau	Horowhenua	455
+Manawapou	Hawera	222
+Manawaru	Piako	363
+Mandeville	Southland	164
+Mangaiti	Ohinemuri	159
+Mangamahu	Wanganui	164
+Mangamaire	Pahiatua	154
+Mangamutu	Pahiatua	116
+Mangaonoho	Rangitikei	153
+Mangapai	Whangarei	248
+Mangapehi	Waitomo	277
+Mangapiko	Waipa	141
+Mangaramarama	Pahiatua	137
+Mangarawa	Woodville	108
+Mangatainoka	Pahiatua	454
+Mangateretere	Hawke's Bay	207
+Mangatete	Mongonui	113
+Mangatoki	Eltham	408
+Mangatoro	Dannevirke	123
+Mangawai	Otamatea	109
+Mangawhata	Manawatu	113
+Mangawhero Valley'	Matamata	101
+Manger©	Manukau	673
+Mangere Bridge	Manukau	285
+Mangonui	Mongonui	230
+Mangorei	Taranaki	263
+Manuherikia	Vincent	147
+Manutahi	Patea	262
+Manutuke'	Cook	316
+Mapiu	Waitomo	171
+Maraekakaho	Hawke's Bay	236
+Maraetotara	Hawke's Bay	116
+Marakopa'	Awakino	105
+Mareretu	Otamatea	123
+Marotiri	Manawatu	101
+Marshland	Waimairi	669
+Marshlands	Marlborough	112
+Marton Junction	Rangitikei	544
+Marua	Whangarei	170
+Mata	Eltham	124
+Matahiwi	Masterton	106
+Matahuru	Waikato	164
+Matakana	Rodney	352
+Manuherikia	Vincent	159
+Matakitaki	Murchison	152
+Matakohe	Otamatea	197
+Matamata	Matamata	958
+Matamau	Dannevirke	283
+Matangi	Waikato	199
+Matapu	Eltham	375
+Matarawa	Wairarapa South	160
+Mataroa	Rangitikei	385
+Matata	Whakatane	183
+Matatoki	Thames	127
+Mataura Island	Southland	304
+Matawai	Waikohu	498
+Matawhero	Cook	253
+Matiere	Ohura	271
+Matuku	Wallace	113
+Mauku	Franklin	283
+Maungakaramea	Whangarei	280
+Maungakawa	Piako	110
+Maungatapere	Whangarei	215
+Maungatautari	Matamata	101
+Maungatawhiri	Franklin	150
+Maungatua	Taieri	210
+Maungaturoto	Otamatea	194
+Maunu	Whangarei	392
+Mauriceville	Mauriceville	343
+Ma-waro	Mackenzie	128
+Maxwelltown	Waitotara	234
+Mayfield	Ashburton	297
+Meadowbank	Waitaki	110
+Medbury	Waipara	105
+Meeanee	Hawke's Bay	152
+Menzies Ferry	Southland	232
+Meremere	Hawera	330
+Merton	Waikouaiti	152
+Methven	Ashburton	760
+Middlemarch	Taieri	338
+Midhirst	Stratford	711
+Milburn	Bruce	216
+Miller's Flat	Tuapeka	365
+Millerton	Buller	843
+Miro	Taranaki	185
+Mitcham	Ashburton	169
+Moa Creek	Vincent	189
+Moa Flat	Tuapeka	160
+Moawhango	Rangitikei	120
+Moeraki	Waitaki	133
+Mohaka	Wairoa	133
+Mokai	East Taupo	199
+Mokau	Awakino	171
+Mokauiti	Waitomo	217
+Mokoia	Hawera	111
+Mokoreta	Southland	131
+Mokotua	Southland	148
+Momona	Taieri	216
+Monavale	Waipa	172
+Moneymore	Bruce	150
+Morley	Wallace	168
+Morrison's Bush	Featherston	162
+Morton Mains	Southland	290
+Morven	Waimate	546
+Mosgiel Junction	Taieri	225
+Mossburn	Taieri	123
+Mossburn	Wallace	180
+Mosstown	Waitotara	229
+Motu	Waikohu	184
+Motuhora	Opotiki	106
+Motukaraka	Hokianga	119
+Motukarara	Springs	125
+Motumaoho	Piako	215
+Motunau	Waipara	105
+Motunui	Clifton	107
+Motupipi	Takaka	210
+Mount Albert	Eden	226
+Mount Roskill	Eden	136
+Mount St. John	Eden	1,107
+Mount Smart	Eden	156
+Mount Somers	Ashburton	277
+Mount Wellington	Edon	212
+Moutere	Waimea	325
+Moutoa	Manawatu	216
+Murchison	Murchison	318
+Muriwai	Cook	157
+Myross Bush	Southland	189
+Nainai	Hutt.	319
+Naumai	Otamatea	232
+Nelson Creek	Grey	163
+Netherton	Ohinemuri	360
+Neudorf	Waimea	178
+Nevis	Vincent	132
+Newborough	Waitaki	187
+Newbury	Kairanga	261
+Newlands	Makara	135
+Newman	Eketahuna	193
+Newstead	Waikato	152
+Ngaawapurua	Woodville	122
+Ngaere	Stratford	348
+Ngahauranga	Makara	219
+Ngahere	Grey	233
+Ngakawau	Buller	157
+Ngamatea	Wanganui	123
+Ngamoko	Dannivirke	110
+Ngapara	Waitaki	285
+Ngarua	Piako	186
+Ngataki	Mongonui	140
+Ngatapa	Cook	322
+Ngatea	Thames	159
+Ngatimoti	Waimea	152
+Ngongotaha	Rotorua	305
+Ngutuwera	Patea	111
+Nightcaps	Wallace	439
+Nihotapu	Waitemata	101
+Nireaha	Ekotahuna	323
+Nokomai	Southland	114
+Nolantown	Hawera	364
+Normandale	Hutt	111
+North Loburn	Ashley	145
+Norton Road	Waipa	110
+Norton's Reserve	Waimate	114
+No. 2 Line	Wanganui	113
+Nuhaka	Wairoa	150
+Nydia Bay	Sounds	110
+Oakura	Taranaki	206
+Oaonui	Egmont	377
+Oeo	Egmont	204
+Ohaeawai	Bay of Islands	133
+Ohakea	Manawatu	103
+Ohangai	Hawera	121
+Ohape	Geraldine	154
+Ohariu	Makara	227
+Ohau	Horowhenua	251
+Ohinewai	Waikato	293
+Ohingaiti	Rangitikei	309
+Ohoka	Eyre	263
+Ohura	Ohura	205
+Oio	Kaitieke	102
+Okahu	Hobson	108
+Okahukura	Ohura	281
+Okaiawa	Hawera	301
+Okaihau	Bay of Islands	131
+Okain's Bay	Akaroa	281
+Okate	Taranaki	456
+Okau	Clifton	110
+Okauia	Matamata	121
+Okoia	Wanganui	273
+Okoroire	Matamata	265
+Okuramio	Marlborough	167
+Omaka	Marlborough	126
+Omakau	Vincent	179
+Omanawa	Tauranga	123
+Omata	Taranaki	235
+Omihi	Waipara	202
+Onetea	Hobson	109
+One Tree Hill	Eden	924
+Onewhero	Raglan	285
+Ongaonga	Waipawa	330
+Ongarue	Ohura	141
+Opaki	Masterton'	148
+Oparau	Kawhia	110
+Oparure	Waitomo	187
+Ophir	Vincent	110
+Opouriao	Whakatane	250
+Opouri Valley	Marlborough	121
+Opua	Bay of Islands	103
+Opuatia	Raglan	110
+Orakipaoa	Geraldine	116
+Orari	Geraldine	256
+Oratia	Waitemata	193
+Orawia	Wallace	255
+Orepuki	Wallace	746
+Oreti	Southland	174
+Orini	Waikato	198
+Ormond	Cook	523
+Orongo	Thames	108
+Oropi	Tauranga	172
+Oroua Downs	Manawatu	136
+Otaika	Whangarei	316
+Otaio	Waimate	222
+Otakeho	Waimate West	324
+Otama	Southland	123
+Otapiri	Southland	138
+Otara	Opotiki	214
+Otara	Southland	286
+Otatara	Southland	191
+Otaua	Franklin	346
+Otauwhao	Waipawa	213
+Otekaike	Waitaki	308
+Otewa	Waitomo	1ll
+Otiake	Waitaki	130
+Otipua	Levels	164
+Otira	Westland	462
+Otokia	Taieri	301
+Otoko	Waikohu	172
+Otumoetai	Tauranga	128
+Oturehua	Maniototo	167
+Oturoa	Rotorua	136
+Ouruhia	Waimairi	190
+Overdale	Ashburton	124
+Owaka	Clutha	576
+Owhango	Kaitieke	667
+Oxford	Oxford	989
+Paekakariki	Hutt	382
+Paemako	Waitomo	110
+Paengaroa	Tauranga	238
+Paerata	Franklin	146
+Pahia	Wallace	212
+Pakihikura	Kiwitea	104
+Pakipaki	Hawke's Bay	200
+Pakowhai	Hawke's Bay	236
+Pakuranga	Manukau	249
+Pangatotara	Waimea	162
+Panmure	Eden	400
+Papakaio	Waitaki	232
+Papamoa	Tauranga	210
+Papanui	Waimairi	2,844
+Paparangi	Makara	123
+Paparata	Franklin	158
+Paparoa	Otamatea	331
+Papatawa	Woodville	147
+Papatoitoi	Manukau	1,062
+Papatotara	Wallace	145
+Parakai	Waimarino	195
+Parapara	Waimarino	146
+Paraparaumu	Hutt	356
+Parawai	Thames	604
+Paremata	Hutt	115
+Pareora	Levels	330
+Parkvale	Wairarapa South	276
+Parnassus	Cheviot	108
+Paroa	Grey	116
+Parua Bay	Whangarei	127
+Patearoa	Maniototo	228
+Paterangi	Waipa	221
+Patetere	Matamata	111
+Patoka	Hawke's Bay	133
+Patumahoe	Franklin	328
+Patutahi	Cook	649
+Pelorus Valley	Marlborough	66
+Pemberton	Kiwitea	64
+Pembroke	Lake	113
+Pembroke Road	Stratford	106
+Peninsula	Kaikoura	134
+Penrose	Eden	307
+Peria	Mongonui	133
+Petane	Hawke's Bay	271
+Piha	Waitemata	137
+Pihama	Egmont	328
+Pine Bush	Southland	141
+Piopio	Waitomo	311
+Pipiriki	Waimarino	334
+Pipiroa	Thames	121
+Piriaka	Kaitieke	270
+Pirinoa	Featherston	225
+Piripiri	Dannevirke	201
+Pirongia	Waipa	182
+Pirongia West	Kawhia	122
+Pleasant Valley	Geraldine	209
+Plimmerton	Hutt	247
+Pohangina	Pohangina	249
+Pohangina Valley	Oroua	233
+Pohokura	Whangamomona	145
+Point Chevalier	Eden	556
+Pokeno	Franklin	362
+Pongakawa	Tauranga	150
+Pongara	Akitio	487
+Poolburn	Vincent	103
+Porangahau	Patangata	405
+Porewa	Rangitikei	140
+Porirua	Makara	1,399
+Port Albert	Rodney	266
+Portland	Whangarei	204
+Portobello	Peninsula	188
+Poukawa	Hawke's Bay	195
+Pourakino	Wallace	103
+Prebbleton	Paparua	484
+Puaha	Wairewa	176
+Puerua	Clutha	110
+Puha	Waikohu	205
+Puhoi	Rodney	274
+Pukahu	Hawke's Bay	169
+Pukehinau	Akitio	111
+Pukehou	Waipawa	100
+Pukehuia	Hobson	161
+Pukekohe East	Franklin	229
+Pukekohe Hill	Franklin	121
+Pukekohe	Waipa	173
+Pukemiro	Raglan	223
+Pukengahu	Stratford	127
+Pukenui	Mongonui	123
+Pukerau	Southland	313
+Pukerimu	Waipa	161
+Pukeroro	Waikato	102
+Puketapu	Hawke's Bay	173
+Puketitiri	Hawke's Bay	143
+Puketurua	Matamata	104
+Pukeuri	Waitaki	227
+Pungapunga	West Taupo	216
+Pungarehu	Egmont	210
+Puni	Franklin	293
+Puuiho	Taranaki	147
+Puponga	Collingwood	157
+Purakanui	Waikouaiti	134
+Purekireki	Clutha	104
+Puriri	Thames	278
+Putaruru	Matamata	308
+Putiki	Wanganui	203
+Rahotu	Egmont	318
+Rakaia	Ashburton	536
+Rakaia Gorge	Ashburton	104
+Rakaunui	Akitio	121
+Rakauroa	Waikohu	145
+Ramarama	Franklin	252
+Ranfurly	Maniototo	346
+Rangiahua	Hokianga	119
+Rangiotu	Manawatu	313
+Rangiriri	Waikato	113
+Rangitata	Geraldine	139
+Rangitata Island	Geraldine	100
+Rangitikei Line	Kairanga	132
+Rangitikei River Bank	Manawatu	107
+Rangitumau	Masterton	134
+Rangiwahia	Kiwitea	216
+Rapaura	Marlborough	168
+Rata	Rangitikei	100
+Ratanui	Clutha	167
+Ratapiko	Taranaki	133
+Raumai	Pohangina	315
+Raumati	Dannevirke	124
+Raupo	Otamatea	138
+Raurimu	Kaitieke	631
+Rawene	Hokianga	327
+Rawhitiroa	Eltham	181
+Redcliffe	Waimato	200
+Redhill	Hobson	151
+Redwoodtown	Marlborough	282
+Reefton	Inangahua	1,623
+Reidston	Waitaki	117
+Reikorangi	Hutt	114
+Renwicktown	Marlborough	350
+Rewanui	Grey	152
+Richmond	Waitaki	111
+Richmond Grove	Southland	207
+Rimu	Westland	288
+Rimu	Southland	115
+Rissington	Hawke's Bay	136
+Riverhead	Waitemata	336
+Riverlea	Eltham	109
+Riversdale	Southland	320
+Riverside	Taieri	106
+Riwaka	Waimea	716
+Rockville	Collingwood	175
+Rolleston	Paparua	206
+Romahapa	Clutha	208
+Rongokokako	Eketahuna	145
+Rongomai	Eketahuna	152
+Rosebank	Eden	435
+Rosebank	Clutha	219
+Rotherham	Amuri	248
+Roto-o-rangi	West Taupo	128
+Rotorangi	Waipa	146
+Rototuna	Waikato	193
+Round Hill	Wallace	155
+Ruakaka	Whangarei	207
+Ruakaka	Ohinemuri	118
+Ruakapuka	Geraldine	179
+Ruakituri	Wairoa	128
+Ruakoa	Dannevirke	169
+Ruakura	Waikato	152
+Ruapuna	Ashburton	136
+Ruatangata	Whangarei	170
+Ruatapu	Westland	206
+Ruawai	Otamatea	306
+Ruawhata	Pahiatua	120
+Rukuhia	Waipa	258
+Runciman	Franklin	101
+Ruru	Grey	125
+Russell	Bay of Islands	220
+Russell's Flat	Tawera	108
+Ryal Bush	Southland	289
+Saddle Hill	Taieri	108
+St. Andrew's	Waimate	541
+St. Bathan's	Maniototo	161
+St. Heliers	Eden	507
+St. Martin's	Heathcote	360
+Sandon Block	Kiwitea	109
+Sandymount	Peninsula	101
+Sanson	Manawatu	391
+Sawyer's Bay	Waikouaiti	536
+Scarborough	Pahiatua	158
+Scargill	Waipara	163
+Scott's Ferry	Rangitikei	165
+Scott's Gap	Wallace	127
+Seacliff	Waikouaiti	1,253
+Seadown	Levels	334
+Seatoun	Peninsula	159
+Seaward Downs	Southland	274
+Seddon	Awatere	208
+Seddonville	Buller	187
+Sefton	Kowai	253
+Selwyn	Ellesmere	105
+Sentry Hill	Taranaki	114
+Shag Point	Waihemo	111
+Shannon	Horowhenua	560
+Sheffield	Malvern	201
+Sherwood Downs	Mackenzie	163
+Shirley	Waimairi	338
+Shortland	Thames	899
+Silverdale	Waitemata	252
+Silverstream	Hutt	110
+Sockburn	Paparua	512
+Solway	Masterton	180
+South Beach	Grey	158
+Southbrook	Rangiora	346
+Southburn	Waimate	130
+South Hillend	Wallace	111
+South Rakaia	Ashburton	162
+Spar Bush	Southland	149
+Spotswood	Taranaki	173
+Spotswood	Cheviot	150
+Spreadeagle	Ashburton	109
+Springbank	Rangiora	120
+Springburn	Ashburton	101
+Spring Greek	Marlborough	191
+Springfield	Ashburton	189
+Springfield	Tawera	308
+Spring Grove	Waimea	254
+Springlands	Marlborough	699
+Springston	Springs	259
+Springston South	Springs	393
+Springvale	Waitotara	158
+Stafford	Westland	104
+Stanley Brook	Waimea	129
+Stanway	Oroua	175
+Starborough	Awatere	187
+Staveley	Ashburton	158
+Stirling	Bruce	564
+Stockton	Buller	101
+Stoke	Waimea	727
+Strathmore	Whangamomona	113
+Streamlands	Rodney	108
+Studholme Junction	Waimate	285
+Styx	Waimairi	328
+Sunnyside	Waimairi	765
+Sutherland's	Levels	254
+Sutton	Taieri	114
+Swannanoa	Eyre	146
+Swanson	Waitemata	263
+Tadmor	Waimea	206
+Tahaia	Waitomo	102
+Tahakopa	Clutha	186
+Tahatika	Clutha	132
+Tahora	Whangamomona	182
+Tahoraite	Dannevirke	157
+Tahuna	Ohinemuri	205
+Tahunanui	Waimea	298
+Tahora	Cook	123
+Taieri East	Taieri	261
+Taieri North	Taieri	269
+Taikorea	Manawatu	207
+Tairua	Thames	112
+Taita	Hutt	355
+Tai Tapu	Halswell	466
+Takahu	Mongonui	126
+Takaiwhata	Waikato	129
+Takaka East	Takaka	130
+Takamatua	Akaroa	119
+Takapau	Waipawa	442
+Tamahere	Waikato	222
+Tamaki West	Eden	132
+Tamumu	Patangata	136
+Taneatua	Whakatane	388
+Tangihua	Whangarei	112
+Tangiteroria	Hobson	107
+Tangowahine	Hobson	148
+Taonui	Oroua	265
+Taoroa	Rangitikei	114
+Tarangaturi	Southland	105
+Tarata	Clifton	190
+Taratahi	Wairarapa South	290
+Tariki	Taranaki	505
+Taringamotu	West Taupo	167
+Tarras	Vincent	127
+Taruheru	Cook	218
+Tarurutangi	Taranaki	198
+Tasman	Waimea	184
+Tataraimaka	Taranaki	193
+Tatarariki	Hobson	235
+Tataunui	Piako	166
+Taueru	Masterton	142
+Tauhei	Piako	243
+Tauherenikau	Featherston	178
+Tauhoa	Rodney	148
+Taupiri	Waikato	358
+Taupo	East Taupo	103
+Tautari	West Taupo	182
+Tauwhare	Waikato	257
+Tawa Flat	Makara	191
+Tawai	Waimate	129
+Tawaka	Featherston	272
+Tawanui	Clutha	105
+Tawhiti	Hawera	109
+Tayforth	Waitotara	212
+Te Araroa	Waiapu	280
+Te Atatu	Waitemata	179
+To Hana	Rodney	107
+Te Hirau	Raglan	137
+To Horo	Horowhenua	256
+Te Houka	Clutha	124
+Te Kapo	Mackenzie	119
+Te Karaka	Waikohu	467
+Te Kawa	West Taupo	135
+Te Kinga	Grey	142
+Te Kiri	Egmont	292
+Te Kopuru	Hobson	637
+To Kowhai	Waipa	289
+To Mapara	Waitomo	201
+Te Mata	Raglan	235
+Te Mata	Hawke's Bay	334
+Te Mawhai	West Taupo	120
+Templeton	Paparua	658
+Tengawai	Mackenzie	157
+Te Oreore	Masterton	175
+Te Papakuhu	Dannevirke	189
+Te Poliue	Hawke's Bay	206
+Te Poi	Matamata	152
+Terakohe	Takaka	127
+Te Rapa	Waipa	255
+Te Rehunga	Dannevirke	406
+Te Rore	Waipa	128
+Te Roti	Eltham	273
+Te Tua	Wallace	199
+Te Waewae	Wallace	106
+The Mount	Tauranga	142
+The Peaks	Waipara	117
+Thornbury	Wallace	304
+Three Kings	Eden	258
+Tihaka	Wallace	109
+Tikokino	Waipawa	289
+Tikorangi	Clifton	288
+Timatanga	Marlborough	115
+Tiniroto	Cook	171
+Tinui	Castlepoint	191
+Tirau	Matamata	235
+Tiriraukawa	Rangitikei	126
+Tisbury	Southland	155
+Titirangi	Waitemata	203
+Titoki	Whangarei	110
+Ti-tree Point	Weber	103
+Tokanui	West Taupo	259
+Tokanui	Southland	177
+Tokaora	Hawera	110
+Tokarahi	Waitaki	247
+Tokatoka	Otamatea	106
+Toko	Stratford	525
+Tokoiti	Bruce	217
+Tokomaru	Horowhenua	599
+Tokomaru Bay	Waiapu	806
+Tolaga Bay	Cook	381
+Tongaporutu	Clifton	146
+Totara	Whangaroa	133
+Totara	Waitaki	268
+Totara Flat	Grey	115
+Totara Valley	Levels	176
+Towai	Bay of Islands	132
+Trentham	Hutt	592
+Tuamarina	Marlborough	296
+Tuapaki	Waitemata	203
+Tuapeka Flat	Tuapeka	114
+Tuapeka Mount	Tuapeka	121
+Tuapeka West	Tuapeka	150
+Tuatapere	Wallace	401
+Tuparoa	Waiapu	130
+Turakina	Rangitikei	100
+Turakina Valley	Rangitikei	257
+Turangarere	Wanganui	168
+Turua	Thames	187
+Tussock Creek	Southland	139
+Tutaenui	Rangitikei	161
+Tutaenui, Upper	Rangitikei	214
+Tuturau	Southland	349
+Twyford	Hawke's Bay	162
+Tycho	Levels	110
+Umukuri	Waimea	289
+Umutaoroa	Dannevirke	201
+Umutoi	Pohangina	114
+Upper Plain	Masterton	327
+Upper Spring Creek	Marlborough	107
+Urenui	Clifton	364
+Uruti	Clifton	246
+Utiku	Rangitikei	586
+Utuwai	Pohangina.	112
+Victoria Valley	Mongonui	172
+View Hill	Oxford	141
+Waddington	Malvern	251
+Waerenga	Waikato	179
+Waerengaahika	Cook	263
+Waharoa	Matamata	258
+Waianakarua	Waitaki	103
+Waianiwa	Southland	304
+Waiareka	Waitaki	136
+Waiau	Franklin	180
+Waiau	Amuri	244
+Waihakeke	Wairarapa South	148
+Waihaorunga	Waimato	157
+Waiharara	Mongonui	107
+Waihi Plains	Ohinemuri	169
+Waihoanga	Horowhenua	120
+Waihola	Bruce	222
+Waihopo	Mongonui	270
+Waihou	Piako	598
+Wai-iti	Waimea	144
+Waikaia	Southland	301
+Waikaka	Southland	235
+Waikaka Valley	Southland	309
+Waikanae	Horowhenua	274
+Waikari	Waipara	438
+Waikawa	Southland	154
+Waikeria	West Taupo	106
+Waikiekie	Whangarei	190
+Waikino	Ohinemuri	779
+Waikiwi	Southland	583
+Waikohu	Waikohu	155
+Waikoikoi	Clutha	220
+Waikuku	Rangiora	205
+Waikumete	Waitemata	441
+Waimahaka	Southland	159
+Waimamaku	Hokianga	174
+Waimana	Whakatane	225
+Waimangaroa	Buller	287
+Waimata	Cook	222
+Waimataitai	Levels	253
+Waimate North	Bay of Islands	127
+Waimatua	Southland	103
+Waimatuku	Wallace	235
+Waimauku	Waitemata	217
+Waimumu	Southland	228
+Waingake	Cook	133
+Waingaro	Raglan	138
+Wainui	Akaroa	133
+Wainuiomata	Hutt	169
+Waioeka	Opotiki	221
+Waiongona	Taranaki	213
+Waiorongomai	Piako	224
+Waiotahi	Opotiki	139
+Waipahi	Clutha	186
+Waipaoa	Waikohu	235
+Waipara	Waipara	176
+Waipiata	Maniototo	156
+Waipipi	Franklin	257
+Waipiro Bay	Waiapu	197
+Waipu	Whangarei	328
+Waipuku	Stratford	154
+Wairau	Marlborough	112
+Wairau Valley	Marlborough	182
+Wairere	Otamatea	190
+Wairio	Wallace	279
+Wairuna	Clutha	193
+Wairuna	Tuapeka	378
+Waitahuna West	Bruce	151
+Waitakerei	Waitemata	182
+Waitaki South	Waitaki	108
+Waitapu	Kiwitea	194
+Waitapu	Takaka	128
+Waitati	Waikouaiti	550
+Waitekauri	Waitomo	105
+Waiterimu	Waikato	105
+Waitoa	Piako	454
+Waitohi	Geraldine	236
+Waitihu	Horowhenua	104
+Waitotara	Pa tea	281
+Waituhi	West Taupo	169
+Waituna	Waimate	177
+Waituna	Southland	118
+Waiuta	Inangahua	511
+Waiwera	Waitemata	213
+Waiwera South	Clutha	304
+Wakanui	Ashburton	179
+Wakapuaka	Waimea	150
+Wakarara	Waipawa	124
+Wakari	Taieri	126
+Wakefield	Waimea	776
+Wallacetown	Southland	270
+Wallingford	Patangata	137
+Walton	Piako	320
+Wangaehu	Rangitikei	222
+Wangaehu	Masterton	100
+Wanstead	Patangata	175
+Ward	Awatere	277
+Warea	Egmont	292
+Warepa	Clutha	221
+Warrington	Waikouaiti	203
+Washdyke	Levels	417
+Wataroa	Westland	124
+Watershed Road	Oroua	111
+Waterton	Ashburton	124
+Watlington	Levels	199
+Weber	Weber	207
+Wedderburn	Maniototo	119
+Weedon's	Panama	176
+Wellsford	Rodney	153
+Wendon	Southland	445
+Wendonside	Southland	246
+Weraroa	Horowhenua	640
+Westerfield	Ashburton	236
+Western Springs	Eden	152
+Westmere	Waitotara	317
+West Melton	Paparua	186
+Weston	Waitaki	252
+West Plains	Southland	309
+Westshore	Hawke's Bay	490
+Whakamara	Hawera	130
+Whakapara	Whangarei	153
+Whakapirau	Otamatea	143
+Whakaronga	Kairanga	273
+Whakatu	Hawke's Bay	111
+Whangamomona	Whangamomona	284
+Whangarata	Franklin	169
+Whangaripo	Rodney	148
+Whangaroa	Whangaroa	103
+Wharehuia	Stratford	316
+Wharekopae	Waikohu	108
+Wharepoha	Thames	241
+Whatatutu	Waikohu	222
+Whataupoko	Cook	832
+Whatawhata	Waipa	278
+Whenuakura	Patea	430
+Whetukura	Dannevirke	167
+Whitecliffs	Malvern	183
+Whiteman's Valley	Hutt	127
+Whitford	Manukau	265
+Whitianga	Coromandel	446
+Wild Bush	Wallace	150
+Willowbridge	Waimate	276
+Willowby	Ashburton	200
+Wimbledon	Weber	114
+Winchester	Geraldine	342
+Winchmore	Ashburton	231
+Windsor	Waitaki	267
+Wingatui	Taieri	184
+Wiri	Manukau	155
+Woodbury	Geraldine	356
+Woodend	Rangiora	429
+Woodend	Southland	198
+Woodgrove	Waipara	222
+Woodhill	Waitemata	103
+Woodlands	Southland	432
+Woodside	Taieri	175
+Woodstock	Westland	154
+Wrey's Bush	Wallace	193
+Wright's Bush	Southland	127
+Wyfie's Crossing	Taieri	129
+Yaldhurst	Paparua	278

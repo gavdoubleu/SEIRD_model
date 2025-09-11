@@ -1,0 +1,20 @@
+#Occupations of Deceased Males, 1916.
+
+#The occupation of males who died during 1916, arranged according to the census classification, are shown in the following table. Further details may be obtained from Volume 1 of “Statistics of the Dominion of New Zealand,” 1916.
+#Occupation.	Age, in Years.	Total.
+Occupation.	Under 20.	20 and under 25.	25 and under 45.	45 and under 65.	65 and over.	Totals.
+Professional	5	52	122	81	102	362
+Domestic	1	12	24	47	42	126
+Commercial	14	21	124	163	188	510
+Engaged in transport and communication	13	17	108	130	124	392
+Engaged in manufacturing	10	7	102	134	206	459
+Engaged in building and construction	4	5	73	89	136	307
+Other industrial workers	24	17	142	172	310	665
+Agricultural and pastoral	33	13	175	344	750	1,315
+Working in mines and quarries	 	1	26	48	164	239
+Other primary producers	 	7	17	10	24	58
+Independent means, &c.	 	 	 	22	166	188
+Dependent relatives	1,464	2	 	 	 	1,466
+Dependent on public or private support	2	 	1	1	3	7
+Undefined or unknown	 	6	19	22	5	52
+Totals	  1,570	160	933	1,263	2,220	6,146

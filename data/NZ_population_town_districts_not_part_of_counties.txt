@@ -1,0 +1,36 @@
+# Townname Population
+Bull's	483
+Castlecliff.	734
+Ellerslie	1,363
+Featherston	1,159
+Gonville	2,693
+Hampstead	1,579
+Havelock North	870
+Helensville	775
+Hunterville	555
+Huntly	1,535
+Johnsonville	886
+Lumsden	530
+Manaia	606
+Mangapapa	1,140
+Mangaweka	390
+Manunui	813
+Martin borough	725
+Morrinsville	934
+New Lynn	1,041
+Ngaruawahia	755
+Otaki	806
+Otautau	696
+Papakura	641
+Pleasant Point	482
+Raetihi	508
+Rangataua	410
+Taradale	1,012
+Te Puke	565
+Tinwald	1,075
+Upper Hutt	1,399
+Waiuku	641
+Warkworth	624
+Waverley	623
+Whakatane	900
+Wyndham	647

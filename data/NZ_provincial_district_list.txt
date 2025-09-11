@@ -1,0 +1,11 @@
+# Provincial Districts
+Auckland
+Taranaki
+Hawke's Bay
+Wellington
+Marlborough
+Nelson
+Westland
+Canterbury
+Otago
+Southland

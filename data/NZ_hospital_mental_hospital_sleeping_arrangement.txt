@@ -1,0 +1,15 @@
+SLEEPING - ACCOMMODATION
+
+The amount of sleeping-accommodation provided in each of the public mental hospitals is shown in tabular form, giving separately the number and cubic content of the sleeping-rooms intended for one person only, and of the dormitories occupied by several inmates conjointly, together with the number of beds for patients:—
+—	Sleeping-rooms for One Person only.	Dormitories for more than One Person.
+Number.	Aggregate Number of Cubic Feet.	Number of Dormitories.	Aggregate Number of Cubic Feet.	Number of Beds.
+Auckland	250	197,750	35	368,563	710
+Tokanui	19	22,840	8	765,597	131
+Porirua	154	150,605	28	444,945	765
+Nelson	28	24,248	16	106,948	166
+Hokitika	57	47,759	14	131,718	213
+Christchurch	115	97,314	54	377,668	595
+Seacliff	247	163,093	62	348,424	698
+        Totals	870	703,609	217	2,543,863	3,278
+
+At Ashburn Hall, Wakari, there are seventy-seven rooms, each for one person only, with an aggregate cubic content of 77,461 f

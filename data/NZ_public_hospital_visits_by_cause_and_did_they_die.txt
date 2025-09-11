@@ -1,0 +1,18 @@
+# PUBLIC HOSPITALS.—CLASSIFICATION OF DISEASES, 1915.
+# Class.	Discharges.	Deaths.	Total Discharges and Deaths.
+# Recovered.	Relieved.	Unrelieved.	Males.	Females.	Males.	Females.
+I.	General diseases	4,930	1,693	376	468	318	4,741	3,044
+II.	Diseases of the nervous system and of the organs of special sense	771	797	181	112	69	1,195	735
+III.	Diseases of the circulatory System	1,329	423	44	125	65	1,506	480
+IV.	Diseases of the respiratory system	2,827	469	58	192	71	2,210	1,407
+V.	Diseases of the digestive system	4,878	783	113	178	110	3,559	2,503
+VI.	Diseases of the genitourinary system and annexa	1,915	585	72	119	52	870	1,873
+VII.	Puerperal condition	891	97	15	..	29	..	1,032
+VIII.	Diseases of the skin and of the cellular tissue	949	291	14	29	18	855	446
+IX.	Diseases of the organs of locomotion	587	307	26	13	9	702	240
+X.	Malformations	211	40	17	14	7	247	42
+XI.	Infancy	48	13	2	18	15	52	44
+XII.	Old age	7	119	30	101	22	222	57
+XIII.	Violence	2,933	811	97	142	28	3,432	579
+XIV.	Ill-defined causes	299	132	26	25	15	319	178
+Totals	22,575	6,560	1,071	1,536	828	19,910	12,660

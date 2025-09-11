@@ -1,0 +1,17 @@
+PUBLIC-SCHOOL TEACHERS.
+
+The number of teachers in the public schools, exclusive of those employed in the secondary departments of district high schools, is shown for a number of years. The figures are as in December of the years given.
+Year.	Adults.	Pupil-teachers.
+Males.	Females.	Total.	Males.	Females.	Total.
+* Excluding probationers
+1878	707	454	1,161	181	332	450
+1883	905	656	1,561	159	571	730
+1888	1,039	887	1,926	219	694	913
+1893	1,107	1,096	2,203	238	825	1,063
+1898	1,234	1,370	2,604	229	831	1,060
+1903	1,270	1,726	2,996	147	552	699
+1908	1,331	2,021	3,352	161	476	637
+1913	1,603	2,659	4,262	142*	474*	616*
+1914	1,628	2,820	4,448	139*	470*	609*
+1915	1,591	3,077	4,668	141*	485*	626*
+1916	1,501	3,209	4,710	137*	519*	656*
