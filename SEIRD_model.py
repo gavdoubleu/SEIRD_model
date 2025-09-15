@@ -3,6 +3,25 @@
 
 Class containing methods specific to the multi-group SEIRD model.
 
+Attributes:
+  beta_vector (npt.ArrayLike):
+    List of the transmission coefficients for each mixing environment.
+  gamma (npt.ArrayLike):
+    Recovery rate. Scalar or length N array, where N is the number of population groups.
+  delta (npt.ArrayLike):
+    Death rate. Scalar or length N array, where N is the number of population groups.
+  latent_period (npt.ArrayLike):
+    Latency period between exposure and beginning infectiousness.
+    Scalar or length N array.
+  theta_matrix (npt.NDArray):
+    The coupling coefficient between groups $g$ and mixing environments $m$.
+    M x N matrix where M is the number of mixing environments, and N is the number of groups.
+    All columns should sum to 1 as population groups must go somewhere.
+  compartment_list (list[str], optional):
+    list of names for each comparment. Used for plot labels. 
+  group_names (list[str], optional):
+    list of the names for each type of group. Used for plot labels. 
+
 Methods:
   deriv_matrix:
     Finds the derivatives dY/dt for all compartments in the SEIRD model.
