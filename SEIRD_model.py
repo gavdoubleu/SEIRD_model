@@ -107,9 +107,9 @@ class SEIRD_model:
             The infection coefficient for each population's environment. Units of /day
             [beta_1, beta_2, ..., beta_M] where M is the number of types of mixing environment (e.g. party, non-party).
           self.gamma (npt.ArrayLike):
-            the recovery rate in /day for each group
+            the recovery rate in units of people/day for each group.
           self.delta (npt.ArrayLike):
-            the death rate in /day for each group
+            the death rate in units of people/day for each group.
           self.theta_matrix (npt.NDArray):
             MxN matrix, where M is the number of mixing environments and N is the number of types of population
             The matrix encodes the portion of people of type i who visit environment j in the timestep. 
