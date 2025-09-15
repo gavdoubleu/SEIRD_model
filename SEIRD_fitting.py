@@ -48,7 +48,7 @@ class fitting_deaths:
         self.date_of_first_infection  = params[0]
         self.seird_model.beta_vector  = [params[1], params[2]]
         self.seird_model.gamma        = params[3]
-        self.seird_model.delta        = params[3] * 0.1 * np.array([1.,1.,2.])
+        self.seird_model.delta        = params[3] * 0.02 * np.array([1., 1., 2.])
         self.seird_model.theta_matrix = fitting_deaths.build_theta_matrix(params[4], params[5])
 
 
@@ -65,12 +65,19 @@ class fitting_deaths:
     
     
     def _fun_to_minimize(self, new_params: npt.ArrayLike) -> float:
+        # Record the new parameters
         self.fitting_params = new_params
+        # Update the model
         self._set_fitting_params_for_model(new_params)
+        # Return the error metric
         return self._error_function()
 
 
-    def do_minimize(self, method='Nelder-Mead', options={'maxiter':3000}, tol=1.0e-12):
+    def do_minimize(self,
+                    method='Nelder-Mead',
+                    options={'maxiter':3000},
+                    tol=1.0e-12):
+        """Minimizes the xi^2 to obtain the model that best fits the data."""
         self.opt = minimize(self._fun_to_minimize, 
                             self.fitting_params,
                             bounds=self.bounds,
@@ -96,26 +103,54 @@ class fitting_deaths:
                                  [1.-args[0], 1.-args[1], 1.-args[0]]])
         return theta_matrix
 
-    def plot_fit(self):
-        """Plot the fit and residuals
-        """
+    def plot_fit(self, labellist=None, xplot=None):
+        """Plot the fit and residuals"""
         self._error_function()
         print("Xi value = {}".format(self.xi))
         
         fig, (ax1, ax2) = plt.subplots(1,2, figsize=(12,4))
 
-        ax1.scatter(self.dates, self.y_data[0], color='green',label='Sparse Young Deaths per Day')
-        ax1.scatter(self.dates, self.y_data[1], color='blue',label='Sparse Old Deaths per Day')
+        color_list = color=['b','olive','r','green','k']
+        linestyle_list = ['solid', 'dashed', 'dotted', 'dashdot','(0,(1, 1))']
+        marker_list = ['.','s','^','*','P']
+
+        if labellist is None:
+            labellist = ['']
+        if xplot is None:
+            xplot = self.dates
+
+        for i,y in enumerate(self.y_data):
+            ax1.scatter(xplot,
+                        y,
+                        color=color_list[i % len(color_list)],
+                        marker=marker_list[i % len(marker_list)],
+                        s=10,
+                        label='Data {}'.format(labellist[i % len(labellist)]),
+                        alpha=.7)
+        
         derivs = self.seird_model.compute_derivs_per_day(self.dates,
                                                          self.date_of_first_infection,
                                                          self.Y_0)
-        ax1.plot(self.dates, derivs[0,self.Yindex_of_y_data,:], color='green', label='Young initial guess')
-        ax1.plot(self.dates, derivs[1,self.Yindex_of_y_data,:], color='blue', label='Old initial guess')
+        for i,y in enumerate(derivs):
+            ax1.plot(xplot,
+                     y[self.Yindex_of_y_data],
+                     color=color_list[i % len(color_list)],
+                     linestyle=linestyle_list[i % len(linestyle_list)],
+                     label='Fit {}'.format(labellist[i % len(labellist)]),
+                     zorder=10)
+        
         ax1.set_title('Fit'), ax1.set_xlabel('Day'), ax1.set_ylabel('Deaths per day')
         ax1.legend()
-        residuals_0 = self.y_data[0] - derivs[0,self.Yindex_of_y_data,:]
-        residuals_1 = self.y_data[1] - derivs[1,self.Yindex_of_y_data,:]
-        ax2.scatter(self.dates, residuals_0, color='green', label='Young residuals')
-        ax2.scatter(self.dates, residuals_1, color='blue', label='Old residuals')
+
+        for i,y in enumerate(self.y_data):
+            residuals = y - derivs[i,self.Yindex_of_y_data]
+            ax2.scatter(xplot,
+                        residuals,
+                        color=color_list[i % len(color_list)],
+                        marker=marker_list[i % len(marker_list)],
+                        s=10,
+                        label='{}'.format(labellist[i % len(labellist)]),
+                        alpha=.8)
+        
         ax2.set_title('Residuals'), ax2.set_xlabel('Day'), ax2.set_ylabel('Residuals (deaths/day)')
         ax2.legend()

@@ -223,18 +223,17 @@ class SEIRD_model:
             raise Exception("Y_0 shape {} is not compatible with the number of groups {} and compartments {} in SEIRD model".format(Y_0.shape, self.num_groups, self.num_compartments))
         
         # shifts it so day zero is date_of_first_infection
-        dates_after_start = dates[dates >= date_of_first_infection]-date_of_first_infection
+        dates_after_start = np.insert(dates[dates >= date_of_first_infection]-date_of_first_infection, 0, 0.) # Adding a day 0 at the beginning
         dates_before_start = dates[dates < date_of_first_infection]
-
+        
         Y_tT = self.compute_Y_t(dates_after_start, Y_0).transpose((2,0,1))
         
         derivs_post_day_0 = np.zeros(Y_tT.shape)
-        for i, y_day in enumerate(Y_tT):
+        for i, y_day in enumerate(Y_tT): 
             derivs_post_day_0[i] = self.deriv_matrix(dates_after_start, y_day).reshape(Y_0.shape)
 
-        derivs_for_all_days = np.concatenate([np.zeros((len(dates_before_start),*Y_0.shape)), np.array(derivs_post_day_0)],
-                                             axis=0).transpose((1,2,0))    
-
+        derivs_post_day_0 = np.array(derivs_post_day_0)[1:] # ignores the first one as it was added artificially.
+        derivs_for_all_days = np.concatenate([np.zeros((len(dates_before_start),*Y_0.shape)), derivs_post_day_0], axis=0).transpose((1,2,0))    
         return derivs_for_all_days # Return only the death data
 
     
