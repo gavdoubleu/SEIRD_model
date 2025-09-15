@@ -1,13 +1,17 @@
 #!/usr/bin/env python
 """SEIRD model class
 
-Class containing methods specific to the multi-group SEIRD model.
+Class containing methods specific to the multi-group SEIRD model. 
 
 Methods:
   deriv_matrix:
     Finds the derivatives dY/dt for all compartments in the SEIRD model.
   compute_derivs_per_day:
-    compute the deriv_matrix dY/dt for a series of dates.
+    Compute the deriv_matrix dY/dt for a series of dates.
+  compute_Y_t:
+    Returns Y as a function of t for a series of dates.
+  plot_Y_t:
+    Plot the population of various compartments. 
 """
 
 __author__      = "Gavin Woolman"
@@ -59,9 +63,9 @@ class SEIRD_model:
         self.num_compartments = len(self.compartment_list)
         self.num_mixing_envs = len(self.beta_vector)
         # Run some simple error checks
-        self.simple_error_checks()
+        self._simple_error_checks()
 
-    def simple_error_checks(self):
+    def _simple_error_checks(self):
         """Performs some checks that the shape and content of various NDarrays are what they should be. 
         """
         if not self.theta_matrix.shape == (self.num_mixing_envs, self.num_groups):
@@ -168,18 +172,23 @@ class SEIRD_model:
           date_of_first_infection (float): 
             The date on which infected individuals are first introduced. 
           Y_0 (np.ndarray):
-            The distribution of population across all compartments on the first day of infection. 
+            The distribution of population across all compartments
+            on the first day of infection. 
           self.beta_vector (npt.ArrayLike):
-            The transmission rate for each mixing environment. Length M where M is the number of mixing environments. 
+            The transmission rate for each mixing environment.
+            Length M where M is the number of mixing environments. 
           self.gamma (npt.ArrayLike):
             The recovery rate for each group. 
           self.delta (npt.ArrayLike): 
             The death rate for each group.
           self.latent_period (npt.ArrayLike):
-            The mean length of time between exposure and becoming infectious for each group. 
+            The mean length of time between exposure and becoming infectious
+            for each group. 
           self.theta_matrix (np.ndarray):
-            MxN array where M is the number of mixing environments, and N is the number of population groups. 
-            Theta^i_j encodes the probability of each population type j going to mixing environment i. 
+            MxN array where M is the number of mixing environments,
+            and N is the number of population groups. 
+            Theta^i_j encodes the probability of each population type j
+            going to mixing environment i. 
 
         Returns:
           derivs_for_all_days (np.ndarray):
@@ -208,7 +217,11 @@ class SEIRD_model:
         return derivs_for_all_days # Return only the death data
 
     
-    def plot_Y_t(self, t, Y_matrix_0, groups_to_plot='all', compartments_to_plot='all'):
+    def plot_Y_t(self,
+                 t,
+                 Y_matrix_0,
+                 groups_to_plot='all',
+                 compartments_to_plot='all'):
         """Plot some compartments for a series of days $t$
 
         Args:
