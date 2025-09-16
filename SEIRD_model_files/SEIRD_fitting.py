@@ -20,44 +20,26 @@ class fitting_deaths:
                  sigma_y: npt.ArrayLike,
                  seird_model: "SEIRD_model",
                  bounds: list[tuple],
-                 Y_0: npt.NDArray,
-                day_zero: float = None):
+                 model_handler = None):
         self.dates            = dates
         self.y_data           = y_data
         self.sigma_y          = sigma_y
         self.seird_model      = seird_model
         self.initial_model    = seird_model
-        self.Y_0              = Y_0
         self.Yindex_of_y_data = 4
         self.bounds           = bounds
-        if day_zero == None:
-            self.date_of_first_infection = min(self.dates)
+        self.model_handler = model_handler
+        if model_handler is None:
+            raise Exception("Need to set a model handler in order to do a fit.")
         else:
-            self.date_of_first_infection = day_zero
-        self._get_fitting_params_from_model()
-
-    def _get_fitting_params_from_model(self):
-        self.fitting_params = [self.date_of_first_infection,
-                               self.seird_model.beta_vector[0], 
-                               self.seird_model.beta_vector[1], 
-                               self.seird_model.gamma, 
-                               self.seird_model.theta_matrix[0,0],
-                              self.seird_model.theta_matrix[0,1]]
-    
-    def _set_fitting_params_for_model(self, params):
-        self.date_of_first_infection  = params[0]
-        self.seird_model.beta_vector  = [params[1], params[2]]
-        self.seird_model.gamma        = params[3]
-        self.seird_model.delta        = params[3] * 0.02 * np.array([1., 1., 2.])
-        self.seird_model.theta_matrix = fitting_deaths.build_theta_matrix(params[4], params[5])
-
+            self.fitting_params = self.model_handler.get_fitting_params_from_model()
+        
 
     def _error_function(self) -> float:
         """Computes the xi^2 error for the death-data fit. 
         """
-        derivs_for_all_days = self.seird_model.compute_derivs_per_day(self.dates,
-                                                                      self.date_of_first_infection,
-                                                                      self.Y_0)
+        derivs_for_all_days = self.model_handler.get_derivs_per_day()
+        
         self.y_fit = derivs_for_all_days[:,self.Yindex_of_y_data,:]
         self.residuals_squared = (self.y_fit - self.y_data)*(self.y_fit - self.y_data) / (self.sigma_y*self.sigma_y) 
         self.xi = np.sqrt(np.sum(self.residuals_squared) / len(self.residuals_squared))
@@ -68,16 +50,17 @@ class fitting_deaths:
         # Record the new parameters
         self.fitting_params = new_params
         # Update the model
-        self._set_fitting_params_for_model(new_params)
+        self.model_handler.set_fitting_params_for_model(new_params)
         # Return the error metric
         return self._error_function()
-
 
     def do_minimize(self,
                     method='Nelder-Mead',
                     options={'maxiter':3000},
                     tol=1.0e-12):
         """Minimizes the xi^2 to obtain the model that best fits the data."""
+        if self.model_handler is None:
+            raise Exception("Need to set self.model_handler object in order to fit")
         self.opt = minimize(self._fun_to_minimize, 
                             self.fitting_params,
                             bounds=self.bounds,
@@ -85,23 +68,6 @@ class fitting_deaths:
                             method=method,
                             options=options)
 
-
-
-    @staticmethod
-    def build_theta_matrix(*args) -> npt.NDArray:
-        """Builds the theta matrix from a series of arguments. 
-    
-        Args:
-          The parameters that go into the theta matrix. 
-    
-        Returns:
-          theta_matrix (npt.NDArray): 
-            The matrix $\theta^i_g$ that couples population groups $g$ to mixing environments $i$. 
-            Should be shape $M\times N$, where $M$ is the number of mixing environments and $N$ the number of pop groups. 
-        """
-        theta_matrix = np.array([[   args[0],    args[1],    args[0]],
-                                 [1.-args[0], 1.-args[1], 1.-args[0]]])
-        return theta_matrix
 
     def plot_fit(self, labellist=None, xplot=None):
         """Plot the fit and residuals"""
@@ -112,7 +78,7 @@ class fitting_deaths:
 
         color_list = color=['b','olive','r','green','k']
         linestyle_list = ['solid', 'dashed', 'dotted', 'dashdot','(0,(1, 1))']
-        marker_list = ['.','s','^','*','P']
+        marker_list = ['o','s','^','*','P']
 
         if labellist is None:
             labellist = ['']
@@ -128,9 +94,8 @@ class fitting_deaths:
                         label='Data {}'.format(labellist[i % len(labellist)]),
                         alpha=.7)
         
-        derivs = self.seird_model.compute_derivs_per_day(self.dates,
-                                                         self.date_of_first_infection,
-                                                         self.Y_0)
+        derivs = self.model_handler.get_derivs_per_day()
+        
         for i,y in enumerate(derivs):
             ax1.plot(xplot,
                      y[self.Yindex_of_y_data],
