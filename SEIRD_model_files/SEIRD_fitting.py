@@ -69,7 +69,10 @@ class fitting_deaths:
                             options=options)
 
 
-    def plot_fit(self, labellist=None, xplot=None):
+    def plot_fit(self,
+                 labellist=None,
+                 xplot=None,
+                 plot_rate=False):
         """Plot the fit and residuals"""
         self._error_function()
         print("Xi value = {}".format(self.xi))
@@ -85,37 +88,77 @@ class fitting_deaths:
         if xplot is None:
             xplot = self.dates
 
-        for i,y in enumerate(self.y_data):
-            ax1.scatter(xplot,
-                        y,
-                        color=color_list[i % len(color_list)],
-                        marker=marker_list[i % len(marker_list)],
-                        s=10,
-                        label='Data {}'.format(labellist[i % len(labellist)]),
-                        alpha=.7)
-        
-        derivs = self.model_handler.get_derivs_per_day()
-        
-        for i,y in enumerate(derivs):
-            ax1.plot(xplot,
-                     y[self.Yindex_of_y_data],
-                     color=color_list[i % len(color_list)],
-                     linestyle=linestyle_list[i % len(linestyle_list)],
-                     label='Fit {}'.format(labellist[i % len(labellist)]),
-                     zorder=10)
-        
-        ax1.set_title('Fit'), ax1.set_xlabel('Day'), ax1.set_ylabel('Deaths per day')
-        ax1.legend()
+        if plot_rate:
 
-        for i,y in enumerate(self.y_data):
-            residuals = y - derivs[i,self.Yindex_of_y_data]
-            ax2.scatter(xplot,
-                        residuals,
-                        color=color_list[i % len(color_list)],
-                        marker=marker_list[i % len(marker_list)],
-                        s=10,
-                        label='{}'.format(labellist[i % len(labellist)]),
-                        alpha=.8)
-        
-        ax2.set_title('Residuals'), ax2.set_xlabel('Day'), ax2.set_ylabel('Residuals (deaths/day)')
-        ax2.legend()
+            rescale_y = 10000
+            N_per_group = self.model_handler.Y_0.sum(axis=1)
+            
+            for i,y in enumerate(self.y_data):
+                ax1.scatter(xplot,
+                            y/N_per_group[i]*rescale_y,
+                            color=color_list[i % len(color_list)],
+                            marker=marker_list[i % len(marker_list)],
+                            s=10,
+                            label='Data {}'.format(labellist[i % len(labellist)]),
+                            alpha=.7)
+
+            derivs = self.model_handler.get_derivs_per_day()
+
+            for i,y in enumerate(derivs):
+                ax1.plot(xplot,
+                         y[self.Yindex_of_y_data]/N_per_group[i]*rescale_y,
+                         color=color_list[i % len(color_list)],
+                         linestyle=linestyle_list[i % len(linestyle_list)],
+                         label='Fit {}'.format(labellist[i % len(labellist)]),
+                         zorder=10)
+
+            ax1.set_title('Fit'), ax1.set_xlabel('Day'), ax1.set_ylabel('Deaths per day per 10,000 people')
+            ax1.legend()
+
+            for i,y in enumerate(self.y_data):
+                residuals = y - derivs[i,self.Yindex_of_y_data]
+                ax2.scatter(xplot,
+                            residuals/N_per_group[i]*rescale_y,
+                            color=color_list[i % len(color_list)],
+                            marker=marker_list[i % len(marker_list)],
+                            s=10,
+                            label='{}'.format(labellist[i % len(labellist)]),
+                            alpha=.8)
+
+            ax2.set_title('Residuals (deaths / day / 10,000 people)'), ax2.set_xlabel('Day'), ax2.set_ylabel('Residuals (deaths/day)')
+            ax2.legend()
+        else:
+            for i,y in enumerate(self.y_data):
+                ax1.scatter(xplot,
+                            y,
+                            color=color_list[i % len(color_list)],
+                            marker=marker_list[i % len(marker_list)],
+                            s=10,
+                            label='Data {}'.format(labellist[i % len(labellist)]),
+                            alpha=.7)
+
+            derivs = self.model_handler.get_derivs_per_day()
+
+            for i,y in enumerate(derivs):
+                ax1.plot(xplot,
+                         y[self.Yindex_of_y_data],
+                         color=color_list[i % len(color_list)],
+                         linestyle=linestyle_list[i % len(linestyle_list)],
+                         label='Fit {}'.format(labellist[i % len(labellist)]),
+                         zorder=10)
+
+            ax1.set_title('Fit'), ax1.set_xlabel('Day'), ax1.set_ylabel('Deaths per day')
+            ax1.legend()
+
+            for i,y in enumerate(self.y_data):
+                residuals = y - derivs[i,self.Yindex_of_y_data]
+                ax2.scatter(xplot,
+                            residuals,
+                            color=color_list[i % len(color_list)],
+                            marker=marker_list[i % len(marker_list)],
+                            s=10,
+                            label='{}'.format(labellist[i % len(labellist)]),
+                            alpha=.8)
+
+            ax2.set_title('Residuals'), ax2.set_xlabel('Day'), ax2.set_ylabel('Residuals (deaths/day)')
+            ax2.legend()
