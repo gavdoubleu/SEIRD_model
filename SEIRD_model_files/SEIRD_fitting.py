@@ -56,8 +56,8 @@ class fitting_deaths:
 
     def do_minimize(self,
                     method='Nelder-Mead',
-                    options={'maxiter':3000},
-                    tol=1.0e-12):
+                    tol=1.0e-12,
+                    **kwargs):
         """Minimizes the xi^2 to obtain the model that best fits the data."""
         if self.model_handler is None:
             raise Exception("Need to set self.model_handler object in order to fit")
@@ -66,23 +66,33 @@ class fitting_deaths:
                             bounds=self.bounds,
                             tol=tol,
                             method=method,
-                            options=options)
+                            **kwargs)
 
 
     def plot_fit(self,
                  labellist=None,
                  xplot=None,
-                 plot_rate=False):
+                 plot_rate=False,
+                 linewidth=3.,
+                 alpha=.5,
+                 color_list=None,
+                 linestyle_list=None,
+                 marker_list=None,
+                 s=10,
+                 **kwargs):
         """Plot the fit and residuals"""
         self._error_function()
         print("Xi value = {}".format(self.xi))
         
         fig, (ax1, ax2) = plt.subplots(1,2, figsize=(12,4))
 
-        color_list = color=['b','olive','r','green','k']
-        linestyle_list = ['solid', 'dashed', 'dotted', 'dashdot','(0,(1, 1))']
-        marker_list = ['o','s','^','*','P']
-
+        if color_list is None:
+            color_list = color=['b','olive','r','green','k']
+        if linestyle_list is None:
+            linestyle_list = ['solid', 'dashed', 'dotted', 'dashdot','(0,(1, 1))']
+        if marker_list is None:
+            marker_list = ['o','s','^','*','P']
+        
         if labellist is None:
             labellist = ['']
         if xplot is None:
@@ -98,9 +108,10 @@ class fitting_deaths:
                             y/N_per_group[i]*rescale_y,
                             color=color_list[i % len(color_list)],
                             marker=marker_list[i % len(marker_list)],
-                            s=10,
+                            s=s,
                             label='Data {}'.format(labellist[i % len(labellist)]),
-                            alpha=.7)
+                            alpha=alpha,
+                            **kwargs)
 
             derivs = self.model_handler.get_derivs_per_day()
 
@@ -109,8 +120,10 @@ class fitting_deaths:
                          y[self.Yindex_of_y_data]/N_per_group[i]*rescale_y,
                          color=color_list[i % len(color_list)],
                          linestyle=linestyle_list[i % len(linestyle_list)],
+                         linewidth=linewidth,
                          label='Fit {}'.format(labellist[i % len(labellist)]),
-                         zorder=10)
+                         zorder=10,
+                         **kwargs)
 
             ax1.set_title('Fit'), ax1.set_xlabel('Day'), ax1.set_ylabel('Deaths per day per 10,000 people')
             ax1.legend()
@@ -121,21 +134,24 @@ class fitting_deaths:
                             residuals/N_per_group[i]*rescale_y,
                             color=color_list[i % len(color_list)],
                             marker=marker_list[i % len(marker_list)],
-                            s=10,
+                            s=s,
                             label='{}'.format(labellist[i % len(labellist)]),
-                            alpha=.8)
+                            alpha=alpha,
+                            **kwargs)
 
             ax2.set_title('Residuals (deaths / day / 10,000 people)'), ax2.set_xlabel('Day'), ax2.set_ylabel('Residuals (deaths/day)')
             ax2.legend()
+            
         else:
             for i,y in enumerate(self.y_data):
                 ax1.scatter(xplot,
                             y,
                             color=color_list[i % len(color_list)],
                             marker=marker_list[i % len(marker_list)],
-                            s=10,
+                            s=s,
                             label='Data {}'.format(labellist[i % len(labellist)]),
-                            alpha=.7)
+                            alpha=alpha,
+                            **kwargs)
 
             derivs = self.model_handler.get_derivs_per_day()
 
@@ -145,7 +161,8 @@ class fitting_deaths:
                          color=color_list[i % len(color_list)],
                          linestyle=linestyle_list[i % len(linestyle_list)],
                          label='Fit {}'.format(labellist[i % len(labellist)]),
-                         zorder=10)
+                         zorder=10,
+                         **kwargs)
 
             ax1.set_title('Fit'), ax1.set_xlabel('Day'), ax1.set_ylabel('Deaths per day')
             ax1.legend()
@@ -158,7 +175,8 @@ class fitting_deaths:
                             marker=marker_list[i % len(marker_list)],
                             s=10,
                             label='{}'.format(labellist[i % len(labellist)]),
-                            alpha=.8)
+                            alpha=alpha,
+                            **kwargs)
 
             ax2.set_title('Residuals'), ax2.set_xlabel('Day'), ax2.set_ylabel('Residuals (deaths/day)')
             ax2.legend()
