@@ -13,13 +13,13 @@ import matplotlib.pyplot as plt
 from scipy.integrate import solve_ivp
 from scipy.optimize import minimize
 
-class fitting_deaths:
+class DeathFitter:
     def __init__(self,
                  dates: npt.ArrayLike,
                  y_data: npt.ArrayLike,
                  sigma_y: npt.ArrayLike,
                  seird_model: "SEIRD_model",
-                 bounds: list[tuple],
+                 bounds: list[tuple] = None,
                  model_handler = None):
         self.dates            = dates
         self.y_data           = y_data
@@ -33,6 +33,7 @@ class fitting_deaths:
             raise Exception("Need to set a model handler in order to do a fit.")
         else:
             self.fitting_params = self.model_handler.get_fitting_params_from_model()
+        self.use_linear_constraint = False
         
 
     def _error_function(self) -> float:
@@ -61,13 +62,26 @@ class fitting_deaths:
         """Minimizes the xi^2 to obtain the model that best fits the data."""
         if self.model_handler is None:
             raise Exception("Need to set self.model_handler object in order to fit")
-        self.opt = minimize(self._fun_to_minimize, 
-                            self.fitting_params,
-                            bounds=self.bounds,
-                            tol=tol,
-                            method=method,
-                            **kwargs)
-
+        if self.use_constraints:
+            self.opt = minimize(self._fun_to_minimize,
+                                self.fitting_params,
+                                constraints=self.constraints,
+                                tol=tol,
+                                method=method,
+                                **kwargs)
+        elif not (self.bounds is None):
+            self.opt = minimize(self._fun_to_minimize,
+                                self.fitting_params,
+                                bounds=self.bounds,
+                                tol=tol,
+                                method=method,
+                                **kwargs)
+        else:
+            self.opt = minimize(self._fun_to_minimize,
+                                self.fitting_params,
+                                tol=tol,
+                                method=method,
+                                **kwargs)
 
     def plot_fit(self,
                  labellist=None,
