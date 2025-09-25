@@ -12,6 +12,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import solve_ivp
 from scipy.optimize import minimize
+from scipy.optimize import basinhopping
 
 class DeathFitter:
     def __init__(self,
@@ -33,10 +34,10 @@ class DeathFitter:
             raise Exception("Need to set a model handler in order to do a fit.")
         else:
             self.fitting_params = self.model_handler.get_fitting_params_from_model()
-        self.use_linear_constraint = False
+        self.use_constraints = False
         
 
-    def _error_function(self) -> float:
+    def error_function(self) -> float:
         """Computes the xi^2 error for the death-data fit. 
         """
         derivs_for_all_days = self.model_handler.get_derivs_per_day()
@@ -47,13 +48,13 @@ class DeathFitter:
         return self.xi
     
     
-    def _fun_to_minimize(self, new_params: npt.ArrayLike) -> float:
+    def __fun_to_minimize(self, new_params: npt.ArrayLike) -> float:
         # Record the new parameters
         self.fitting_params = new_params
         # Update the model
         self.model_handler.set_fitting_params_for_model(new_params)
         # Return the error metric
-        return self._error_function()
+        return self.error_function()
 
     def do_minimize(self,
                     method='Nelder-Mead',
@@ -63,26 +64,73 @@ class DeathFitter:
         if self.model_handler is None:
             raise Exception("Need to set self.model_handler object in order to fit")
         if self.use_constraints:
-            self.opt = minimize(self._fun_to_minimize,
+            self.opt = minimize(self.__fun_to_minimize,
                                 self.fitting_params,
                                 constraints=self.constraints,
                                 tol=tol,
                                 method=method,
                                 **kwargs)
         elif not (self.bounds is None):
-            self.opt = minimize(self._fun_to_minimize,
+            self.opt = minimize(self.__fun_to_minimize,
                                 self.fitting_params,
                                 bounds=self.bounds,
                                 tol=tol,
                                 method=method,
                                 **kwargs)
         else:
-            self.opt = minimize(self._fun_to_minimize,
+            self.opt = minimize(self.__fun_to_minimize,
                                 self.fitting_params,
                                 tol=tol,
                                 method=method,
                                 **kwargs)
 
+
+    def __save_basin_hop_iteration(self, x, f, accept):
+        self.basin_local_minima.sort(key = lambda minima: minima[1])
+        if len(self.basin_local_minima) < self.__num_minima_to_save:
+            if accept:
+                self.basin_local_minima += [(x, f, accept)]
+        else:
+            if accept:
+                if f < self.basin_local_minima[-1][1]:
+                    self.basin_local_minima[-1] = (x, f, accept)
+
+    def __accept_test(self, f_new, x_new, f_old, x_old):
+        if (f_new-f_old < 0) | (np.std(np.array(x_new)-np.array(x_old)) > self.__accept_param_difference_cutoff):
+            return True
+        else:
+            return False
+
+    def basin_hopping(self,
+                      num_minima_to_save = 1,                      
+                      niter=20,
+                      param_difference_cutoff = 0.001,
+                      minimizer_kwargs = None,
+                      **kwargs):
+        
+        # # Changing default kwargs for the minimizer
+        if minimizer_kwargs is None:
+            minimizer_kwargs = {'method'  : 'cobyqa',
+                                'options' : {'maxiter':10000},
+                                'tol'     : 1.0e-12 }
+        if self.use_constraints:
+            if not 'constraints' in minimizer_kwargs.keys():
+                minimizer_kwargs['constraints'] = self.constraints
+        elif not (self.bounds is None):
+            if not 'bounds' in minimizer_kwargs.keys():
+                minimizer_kwargs['bounds'] = self.bounds
+
+        self.basin_local_minima = []
+        self.__num_minima_to_save = num_minima_to_save
+        self.__accept_param_difference_cutoff = param_difference_cutoff
+        self.basin_opt = basinhopping(self.__fun_to_minimize,
+                                      self.fitting_params,
+                                      niter=niter,
+                                      callback=self.__save_basin_hop_iteration,
+                                      minimizer_kwargs=minimizer_kwargs,
+                                      accept_test=self.__accept_test,
+                                      **kwargs)
+            
     def plot_fit(self,
                  labellist=None,
                  xplot=None,
@@ -95,8 +143,7 @@ class DeathFitter:
                  s=10,
                  **kwargs):
         """Plot the fit and residuals"""
-        self._error_function()
-        print("Xi value = {}".format(self.xi))
+        print("Xi value = {}".format(self.error_function()))
         
         fig, (ax1, ax2) = plt.subplots(1,2, figsize=(12,4))
 
