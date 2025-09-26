@@ -120,7 +120,8 @@ class DeathFitter:
             if not 'bounds' in minimizer_kwargs.keys():
                 minimizer_kwargs['bounds'] = self.bounds
 
-        self.basin_local_minima = []
+        if not hasattr(self, 'basin_local_minima'):
+            self.basin_local_minima = []
         self.__num_minima_to_save = num_minima_to_save
         self.__accept_param_difference_cutoff = param_difference_cutoff
         self.basin_opt = basinhopping(self.__fun_to_minimize,
