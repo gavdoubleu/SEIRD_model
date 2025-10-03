@@ -38,17 +38,17 @@ class DeathFitter:
         
 
     def error_function(self) -> float:
-        """Computes the xi error for the death-data fit.
+        """Computes the Chi2 error for the death-data fit.
 
-        Minimizing xi should be equivalent to maximising the likelihood of seeing the data given a specific model. 
+        Minimizing Chi2 should be equivalent to maximising the likelihood of seeing the data given a specific model. 
         
         """
         derivs_for_all_days = self.model_handler.get_derivs_per_day()
         
         self.y_fit = derivs_for_all_days[:,self.Yindex_of_y_data,:]
-        self.residuals_squared = (self.y_fit - self.y_data)*(self.y_fit - self.y_data) / (self.sigma_y*self.sigma_y) 
-        self.xi = np.sqrt(np.sum(self.residuals_squared) / len(self.residuals_squared))
-        return self.xi
+        self.residuals_squared = (self.y_fit - self.y_data)*(self.y_fit - self.y_data) 
+        self.chi2 = np.sum(self.residuals_squared / (self.sigma_y*self.sigma_y))
+        return self.chi2
     
     
     def __fun_to_minimize(self, new_params: npt.ArrayLike) -> float:
@@ -63,7 +63,7 @@ class DeathFitter:
                     method='Nelder-Mead',
                     tol=1.0e-12,
                     **kwargs):
-        """Minimizes xi to obtain the model that best fits the data."""
+        """Minimizes chi to obtain the model that best fits the data."""
         if self.model_handler is None:
             raise Exception("Need to set self.model_handler object in order to fit")
         if self.use_constraints:
@@ -214,7 +214,8 @@ class DeathFitter:
         Able to plot the fit or the 'rates', where the deaths have been divided by the number of people in the category.
 
         """
-        print("Xi value = {}".format(self.error_function()))
+        Chi_value = self.error_function()
+        print("Chi^2 value = {}".format(Chi_value))
         
         fig, (ax1, ax2) = plt.subplots(1,2, figsize=(12,4))
 
@@ -256,7 +257,8 @@ class DeathFitter:
                          label='Fit {}'.format(labellist[i % len(labellist)]),
                          zorder=10,
                          **kwargs)
-
+            ax1.tick_params(labelrotation=90, axis='x')
+            ax1.tick_params(direction='in', axis='both', right=True, top=True)
             ax1.set_title('Fit'), ax1.set_xlabel('Day'), ax1.set_ylabel('Deaths per day per 10,000 people')
             ax1.legend()
 
@@ -270,8 +272,9 @@ class DeathFitter:
                             label='{}'.format(labellist[i % len(labellist)]),
                             alpha=alpha,
                             **kwargs)
-
-            ax2.set_title('Residuals (deaths / day / 10,000 people)'), ax2.set_xlabel('Day'), ax2.set_ylabel('Residuals (deaths/day)')
+            ax2.tick_params(labelrotation=90, axis='x')
+            ax2.tick_params(direction='in', axis='both', right=True, top=True)
+            ax2.set_title(r'Residuals, $\sigma$ = {:.2f}'.format(np.std(residuals/N_per_group[i]*rescale_y))), ax2.set_xlabel('Day'), ax2.set_ylabel('Residuals (deaths/day/10,000 people)')
             ax2.legend()
             
         else:
@@ -296,7 +299,9 @@ class DeathFitter:
                          zorder=10,
                          **kwargs)
 
-            ax1.set_title('Fit'), ax1.set_xlabel('Day'), ax1.set_ylabel('Deaths per day')
+            ax1.tick_params(labelrotation=90, axis='x')
+            ax1.tick_params(direction='in', axis='both', right=True, top=True)            
+            ax1.set_title(r'Fit. $\chi^2 =$ {:.2f}'.format(Chi_value)), ax1.set_xlabel('Day'), ax1.set_ylabel('Deaths per day')
             ax1.legend()
 
             for i,y in enumerate(self.y_data):
@@ -310,7 +315,9 @@ class DeathFitter:
                             alpha=alpha,
                             **kwargs)
 
-            ax2.set_title('Residuals'), ax2.set_xlabel('Day'), ax2.set_ylabel('Residuals (deaths/day)')
+            ax2.tick_params(direction='in', axis='both', right=True, top=True)            
+            ax2.tick_params(labelrotation=90, axis='x')
+            ax2.set_title(r'Residuals, $\sigma = {:.2f}$ deaths/day'.format(np.std(residuals))), ax2.set_xlabel('Day'), ax2.set_ylabel('Residuals (deaths/day)')
             ax2.legend()
 
     

@@ -89,8 +89,8 @@ class SEIRD_model:
         """
         if not self.theta_matrix.shape == (self.num_mixing_envs, self.num_groups):
             raise Exception("theta_matrix is not M by N, where M is the number of mixing environments = length of the beta_vector and N is the number of population groups: {} does not equal {}".format(self.theta_matrix.shape,(self.num_mixing_envs, self.num_groups)))
-        if not np.array_equal(self.theta_matrix.sum(axis=0), np.ones(self.num_groups)):
-            raise Exception("the theta_matrix isn't properly normalized (all columns should add to one)")
+        if np.any(np.logical_not( np.isclose(self.theta_matrix.sum(axis=0), np.ones(self.num_groups)))):
+            raise Exception("the theta_matrix isn't properly normalized (all columns should add to one). The {} Matrix columns actually sum to {}".format(self.num_groups,self.theta_matrix.sum(axis=0)))
 
     # the SEIR model differential equations
     def deriv_matrix(self, t, Y: npt.NDArray) -> np.array:
